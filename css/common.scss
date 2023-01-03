@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;600&display=swap');
+
+// @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;600&display=swap');
+// font
+
+
+
+:root {
+  --white: #ffffff;
+  --black: #141519;
+  --color1: #999;
+  --color2: #fbd4b7;
+  --text-color01: #eee;
+  // --color3-rgb: 175 167 162;
+  // --color4: #82887c;
+  // --color5: #c9c8c9;
+  // --color6: #e5d5c3;
+  // --color7: #cdc0b1;
+  // --color8: #82887c;
+  // --easing: cubic-bezier(.4, 0, 0, 1);
+  // --black-rgb: 43 43 43;
+  // --error: #cd5c5c;
+}
+
+
+
+/* common css */
+
+html,
+body {
+  margin: 0;
+  font-size: 16px;
+  font-family: "Mukta";
+  font-weight: 300;
+  color: var(--black);
+  background-color: var(--white);
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+figure {
+  margin: 0;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+
+a {
+  color: var(--black);
+  text-decoration: none;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  border: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::after,
+::before,
+a,
+i,
+em,
+strong,
+b,
+code {
+  display: inline-block;
+}
+
+
+
+// 공통 규칙
+// wrapper -> cont -> area -> spot -> box
+
+.wrap {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.mb180 {
+  margin-bottom: 180px;
+}
+
+
+
+
+
+
+//header
+
+header {
+  width: 100%;
+}
+
+.header_wrapper {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10;
+
+  .header_cont {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding: 60px 0;
+
+    .logo {
+      max-width: 192px;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .header_menu {
+      width: 40%;
+      display: flex;
+      justify-content: space-around;
+
+      li {
+        width: 33%;
+
+        a {
+          display: block;
+          font-size: 20px;
+          font-weight: 600;
+          color: var(--text-color01);
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}
+
+.header_wrapper.active {
+  background-color: var(--white);
+
+  .header_cont {
+    .header_menu {
+      li {
+        a {
+          color: var(--black);
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+// footer
+
+footer {
+  width: 100%;
+  padding: 40px 0;
+  background-color: #000;
+
+  .footer_wrapper {
+    width: 80%;
+    margin: 0 auto;
+
+    .footer_sitemap_cont {
+      width: 100%;
+      margin-bottom: 40px;
+
+      .footer_sitemap_list {
+        display: flex;
+        width: 100%;
+        max-width: 400px;
+
+        li {
+          width: 33%;
+
+          a {
+            display: block;
+            width: 100%;
+            font-size: 20px;
+            color: var(--white);
+            text-transform: uppercase;
+          }
+        }
+
+      }
+    }
+
+    .footer_info_cont {
+      width: 100%;
+
+      .footer_info_area {
+        width: 100%;
+        max-width: 900px;
+
+        p {
+          margin-right: 15px;
+          font-size: 15px;
+          color: var(--white);
+        }
+
+        .footer_info_spot {
+          width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          padding-bottom: 40px;
+          border-bottom: 1px solid #fff;
+        }
+
+        .footer_copyright_spot {
+          width: 100%;
+          padding-top: 40px;
+        }
+      }
+    }
+  }
+}
