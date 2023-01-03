@@ -1,1 +1,232 @@
 @import url("./common.css");/*# sourceMappingURL=detail.css.map */
+
+
+/*  /////////////////  메인  /////////////////   */
+
+.wrap{
+    margin-top: 180px;
+}
+.detail_image_wrapper{
+    /* border: 1px solid red; */
+    display: flex;
+}
+.detail_cont{
+    /* border: 3px solid black; */
+    width: 50%;
+}
+.detail_cont > img{
+    width: 100%;
+}
+.detail_area{
+    /* border: 1px solid blue; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding: 0 150px 0 150px;
+}
+.detail_area > h2 {
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+.detail_area >p{
+    font-size: 20px;
+}
+.detail_text_wrapper{
+    /* border: 1px solid blue; */
+    display: flex;
+}
+.detail_text_cont{
+    /* border: 1px solid red; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding: 0 150px 0 150px;
+}
+.detail_text_cont > h2{
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+.detail_text_cont >p{
+    font-size: 20px;
+}
+.detail_img_area{
+    /* border: 3px solid black; */
+    width: 50%;
+}
+.detail_img_area > img{
+    width: 100%;
+}
+
+
+
+
+.detail_recommend_wrapper{
+    /* border: 1px solid black; */
+    position: relative;
+}
+.detail_recommend_wrapper > h2{
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+.detail_recommend_cont > span{
+    /* border: 1px solid blue; */
+    position: absolute;
+    transform: translateY(50%);
+}
+.detail_recommend_cont > span:nth-child(1){
+    top: 50%;
+    left: 0%;
+    font-size: 70px;
+
+}
+.detail_recommend_cont > span:nth-child(2){
+    top: 50%;
+    right: 0%;
+    font-size: 70px;
+
+}
+
+.detail_recommend_area{
+        display: flex;
+        justify-content: space-around;
+}
+
+.detail_recommend_area > a img{
+    width: 350px;
+    height: 350px;
+}
+
+
+
+
+
+@media screen and (max-width:480px) {
+body > div img{
+    width: 100%;
+}
+.wrap{
+    margin-top: 30px;
+}
+.detail_image_wrapper{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+.detail_cont{
+    /* border: 3px solid black; */
+    width: 100%;
+    padding: 10%;
+}
+.detail_cont > img{
+    width: 100%;
+}
+.detail_area{
+    /* border: 1px solid blue; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding: 0 15%;
+}
+.detail_area > h2 {
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.detail_area >p{
+    font-size: 5px;
+}
+.detail_text_wrapper{
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.detail_text_cont{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding: 0 15%;
+    order: 1;
+}
+.detail_text_cont > h2{
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.detail_text_cont >p{
+    font-size: 5px;
+}
+.detail_img_area{
+    /* border: 3px solid black; */
+    width: 100%;
+    order: 0;
+    padding: 10%;
+}
+.detail_img_area > img{
+    width: 100%;
+}
+
+/*/////////////////////////////////////////////*/
+
+
+.detail_recommend_wrapper{
+    /* border: 1px solid black; */
+    position: relative;
+}
+.detail_recommend_wrapper > h2{
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.detail_recommend_cont > span{
+    /* border: 1px solid blue; */
+    position: absolute;
+    transform: translateY(50%);
+}
+.detail_recommend_cont > span:nth-child(1){
+    top: 50%;
+    left: 0%;
+    font-size: 50px;
+
+}
+.detail_recommend_cont > span:nth-child(2){
+    top: 50%;
+    right: 0%;
+    font-size: 50px;
+
+}
+
+.detail_recommend_area{
+    /* border: 1px solid red; */
+    margin: 0 20%;
+    overflow: hidden;
+        display: flex;
+        justify-content: space-around;
+}
+
+.detail_recommend_area > a img{
+    width: 250px;
+    height: 250px;
+}
+
+
+
+
+/*///////////   태블릿     /////////////*/
+
+
+
