@@ -3,8 +3,13 @@
 
 /*  /////////////////  메인  /////////////////   */
 
-.wrap{
-    margin-top: 180px;
+body > div{
+    margin-bottom: 180px;
+}
+
+body > div img{
+    width: 100%;
+    height: 600px;
 }
 .detail_image_wrapper{
     /* border: 1px solid red; */
@@ -21,46 +26,36 @@
     /* border: 1px solid blue; */
     width: 50%;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: center;
+    align-items: center;
     text-align: left;
-    padding: 0 150px 0 150px;
+    /* padding: 0 150px; */
 }
-.detail_area > h2 {
+.detail_spot > h2 {
     padding-bottom: 20px;
     font-size: 40px;
 }
-.detail_area >p{
+.detail_spot > p{
     font-size: 20px;
 }
+.detail_spot{
+    width: 80%;
+}
+
+
 .detail_text_wrapper{
-    /* border: 1px solid blue; */
     display: flex;
-}
-.detail_text_cont{
-    /* border: 1px solid red; */
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: left;
-    padding: 0 150px 0 150px;
-}
-.detail_text_cont > h2{
-    padding-bottom: 20px;
-    font-size: 40px;
-}
-.detail_text_cont >p{
-    font-size: 20px;
 }
 .detail_img_area{
-    /* border: 3px solid black; */
     width: 50%;
 }
 .detail_img_area > img{
     width: 100%;
 }
 
+
+/*///////////////////   스크롤    ///////////////////////*/
 
 
 
@@ -94,14 +89,390 @@
 
 }
 
-.detail_recommend_area{
-        display: flex;
-        justify-content: space-around;
+.detail_recommend_spot{
+    width: 100%;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-around;
+
 }
 
-.detail_recommend_area > a img{
+.detail_recommend_area img{
     width: 350px;
     height: 350px;
+}
+
+
+/*///////////   노트북   /////////////*/
+
+
+@media screen and (max-width:1400px) {
+    
+    body > div{
+        margin-bottom: 60px;
+    }
+    
+    body > div img{
+        width: 100%;
+        height: 500px;
+    }
+    .detail_image_wrapper{
+        /* border: 1px solid red; */
+        display: flex;
+        /* flex-direction: column; */
+    }
+    .detail_cont{
+        /* border: 3px solid black; */
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 0;
+        
+    }
+    .detail_cont > img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .detail_area{
+        /* border: 1px solid blue; */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        margin-bottom: 0;
+        /* order: 1; */
+    }
+    .detail_spot > h2 {
+        padding-bottom: 20px;
+        font-size: 40px;
+    }
+    .detail_spot > p{
+        font-size: 20px;
+    }
+    .detail_spot{
+        width: 80%;
+    }
+    .detail_img_area{
+        order: 0;
+    }
+    
+
+
+
+    .detail_text_wrapper{
+        /* border: 1px solid red; */
+        display: flex;
+        /* flex-direction: column; */
+        margin-bottom: 50px;
+    }
+    .detail_img_area{
+        width: 100%;
+        margin: 0 auto;
+        /* order: 0; */
+    }
+    .detail_img_area > img{
+        width: 100%;
+    }
+    
+    
+    /*///////////////////   스크롤    ///////////////////////*/
+    
+    
+    .detail_recommend_wrapper{
+        /* border: 1px solid black; */
+        position: relative;
+        margin-bottom: 30px;
+    }
+    .detail_recommend_wrapper > h2{
+        /* border: 1px solid blue; */
+        display: flex;
+        justify-content: center;
+        margin-bottom: 60px;
+        font-size: 40px;
+    }
+    .detail_recommend_cont > span{
+        /* border: 1px solid blue; */
+        position: absolute;
+        /* transform: translateY(50%); */
+    }
+    .detail_recommend_cont > span:nth-child(1){
+        top: 50%;
+        left: 0%;
+        font-size: 60px;
+        /* border: 1px solid blue; */
+        padding-left: 0;
+    }
+    .detail_recommend_cont > span:nth-child(2){
+        top: 50%;
+        right: 0%;
+        font-size: 60px;
+        /* border: 1px solid blue; */
+    }
+    .detail_recommend_spot{
+        width: 80%;
+        margin: 0 auto;
+        /* border: 1px solid blue; */
+        display: flex;
+        justify-content: space-around;
+        overflow: hidden;
+    }
+    
+    .detail_recommend_spot > img{
+        /* border: 1px solid red; */
+        width: 30%;
+        height: 30%;
+    }
+}
+
+/*///////////   태블릿  가로   /////////////*/
+
+
+@media screen and (max-width:1024px) {
+    
+    body > div{
+        margin-bottom: 60px;
+    }
+    
+    body > div img{
+        width: 100%;
+        height: 500px;
+    }
+    .detail_image_wrapper{
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+    }
+    .detail_cont{
+        /* border: 3px solid black; */
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 60px;
+        
+    }
+    .detail_cont > img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .detail_area{
+        /* border: 1px solid blue; */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        margin-bottom: 60px;
+        order: 1;
+    }
+    .detail_spot > h2 {
+        padding-bottom: 20px;
+        font-size: 40px;
+    }
+    .detail_spot > p{
+        font-size: 20px;
+    }
+    .detail_spot{
+        width: 80%;
+    }
+    .detail_img_area{
+        order: 0;
+    }
+    .detail_img_area > img{
+        margin-bottom: 30px;
+    }
+
+
+
+    .detail_text_wrapper{
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .detail_img_area{
+        width: 80%;
+        margin: 0 auto;
+        order: 0;
+    }
+    .detail_img_area > img{
+        width: 100%;
+    }
+    
+    
+    /*///////////////////   스크롤    ///////////////////////*/
+    
+    
+    .detail_recommend_wrapper{
+        /* border: 1px solid black; */
+        position: relative;
+        margin-bottom: 30px;
+    }
+    .detail_recommend_wrapper > h2{
+        /* border: 1px solid blue; */
+        display: flex;
+        justify-content: center;
+        margin-bottom: 60px;
+        font-size: 40px;
+    }
+    .detail_recommend_cont > span{
+        /* border: 1px solid blue; */
+        position: absolute;
+        /* transform: translateY(50%); */
+    }
+    .detail_recommend_cont > span:nth-child(1){
+        top: 50%;
+        left: 0%;
+        font-size: 60px;
+        /* border: 1px solid blue; */
+        padding-left: 0;
+    }
+    .detail_recommend_cont > span:nth-child(2){
+        top: 50%;
+        right: 0%;
+        font-size: 60px;
+        /* border: 1px solid blue; */
+    }
+    .detail_recommend_spot{
+        width: 80%;
+        margin: 0 auto;
+        /* border: 1px solid blue; */
+        display: flex;
+        justify-content: space-around;
+        overflow: hidden;
+    }
+    
+    .detail_recommend_spot > img{
+        /* border: 1px solid red; */
+        width: 30%;
+        height: 30%;
+    }
+}
+
+
+
+
+/*///////////   태블릿  세로   /////////////*/
+
+@media screen and (max-width:768px) {
+    
+    body > div{
+        margin-bottom: 60px;
+    }
+    
+    body > div img{
+        width: 100%;
+        height: 300px;
+    }
+    .detail_image_wrapper{
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+    }
+    .detail_cont{
+        /* border: 3px solid black; */
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        
+    }
+    .detail_cont > img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .detail_area{
+        /* border: 1px solid blue; */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        margin-bottom: 60px;
+        order: 1;
+    }
+    .detail_spot > h2 {
+        padding-bottom: 20px;
+        font-size: 40px;
+    }
+    .detail_spot > p{
+        font-size: 15px;
+    }
+    .detail_spot{
+        width: 80%;
+    }
+    .detail_img_area{
+        order: 0;
+    }
+    .detail_img_area > img{
+        margin-bottom: 30px;
+    }
+
+
+
+    .detail_text_wrapper{
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .detail_img_area{
+        width: 80%;
+        margin: 0 auto;
+        order: 0;
+    }
+    .detail_img_area > img{
+        width: 100%;
+    }
+    
+    
+    /*///////////////////   스크롤    ///////////////////////*/
+    
+    
+    .detail_recommend_wrapper{
+        /* border: 1px solid black; */
+        position: relative;
+        margin-bottom: 30px;
+    }
+    .detail_recommend_wrapper > h2{
+        /* border: 1px solid blue; */
+        display: flex;
+        justify-content: center;
+        margin-bottom: 60px;
+        font-size: 40px;
+    }
+    .detail_recommend_cont > span{
+        /* border: 1px solid blue; */
+        position: absolute;
+        /* transform: translateY(50%); */
+    }
+    .detail_recommend_cont > span:nth-child(1){
+        top: 60%;
+        left: 0%;
+        font-size: 40px;
+        /* border: 1px solid blue; */
+    }
+    .detail_recommend_cont > span:nth-child(2){
+        top: 60%;
+        right: 0%;
+        font-size: 40px;
+        /* border: 1px solid blue; */
+    }
+    .detail_recommend_spot{
+        width: 80%;
+        margin: 0 auto;
+        /* border: 1px solid blue; */
+        display: flex;
+        justify-content: space-around;
+        overflow: hidden;
+    }
+    
+    .detail_recommend_spot > img{
+        /* border: 1px solid red; */
+        width: 30%;
+        height: 30%;
+    }
+
 }
 
 
@@ -109,124 +480,132 @@
 
 
 @media screen and (max-width:480px) {
-body > div img{
-    width: 100%;
-}
-.wrap{
-    margin-top: 30px;
-}
-.detail_image_wrapper{
-    /* border: 1px solid red; */
-    display: flex;
-    flex-direction: column;
-}
-.detail_cont{
-    /* border: 3px solid black; */
-    width: 100%;
-    padding: 10%;
-}
-.detail_cont > img{
-    width: 100%;
-}
-.detail_area{
-    /* border: 1px solid blue; */
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: left;
-    padding: 0 15%;
-}
-.detail_area > h2 {
-    padding-bottom: 20px;
-    font-size: 20px;
-}
-.detail_area >p{
-    font-size: 5px;
-}
-.detail_text_wrapper{
-    /* border: 1px solid blue; */
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 30px;
-}
-.detail_text_cont{
-    /* border: 1px solid red; */
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: left;
-    padding: 0 15%;
-    order: 1;
-}
-.detail_text_cont > h2{
-    padding-bottom: 20px;
-    font-size: 20px;
-}
-.detail_text_cont >p{
-    font-size: 5px;
-}
-.detail_img_area{
-    /* border: 3px solid black; */
-    width: 100%;
-    order: 0;
-    padding: 10%;
-}
-.detail_img_area > img{
-    width: 100%;
-}
 
-/*/////////////////////////////////////////////*/
+    body > div{
+        margin-bottom: 30px;
+    }
+    
+    body > div img{
+        width: 100%;
+        height: 200px;
+    }
+    .detail_image_wrapper{
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+    }
+    .detail_cont{
+        /* border: 3px solid black; */
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        
+    }
+    .detail_cont > img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .detail_area{
+        /* border: 1px solid blue; */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        margin-bottom: 30px;
+        order: 1;
+    }
+    .detail_spot > h2 {
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+    .detail_spot > p{
+        font-size: 5px;
+    }
+    .detail_spot{
+        width: 80%;
+    }
+    .detail_img_area{
+        order: 0;
+    }
+    .detail_img_area > img{
+        margin-bottom: 30px;
+    }
 
 
-.detail_recommend_wrapper{
-    /* border: 1px solid black; */
-    position: relative;
-}
-.detail_recommend_wrapper > h2{
-    /* border: 1px solid blue; */
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
-    font-size: 30px;
-}
+    
+    
+    .detail_text_wrapper{
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .detail_img_area{
+        width: 80%;
+        margin: 0 auto;
+        order: 0;
+    }
+    .detail_img_area > img{
+        width: 100%;
+    }
+    
+    
+    /*///////////////////   스크롤    ///////////////////////*/
+    
+    
+    
+    .detail_recommend_wrapper{
+        /* border: 1px solid black; */
+        position: relative;
+        margin-bottom: 30px;
+    }
+    .detail_recommend_wrapper > h2{
+        /* border: 1px solid blue; */
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+    
+    .detail_recommend_cont > span{
+        /* border: 1px solid blue; */
+        position: absolute;
+        /* transform: translateY(50%); */
+    }
+    .detail_recommend_cont > span:nth-child(1){
+        top: 50%;
+        left: 0%;
+        font-size: 30px;
+        /* border: 1px solid blue; */
+        padding-left: 5px;
+    }
+    .detail_recommend_cont > span:nth-child(2){
+        top: 50%;
+        right: 0%;
+        font-size: 30px;
+        /* border: 1px solid blue; */
+    }
+    
 
-.detail_recommend_cont > span{
-    /* border: 1px solid blue; */
-    position: absolute;
-    transform: translateY(50%);
-}
-.detail_recommend_cont > span:nth-child(1){
-    top: 50%;
-    left: 0%;
-    font-size: 50px;
-
-}
-.detail_recommend_cont > span:nth-child(2){
-    top: 50%;
-    right: 0%;
-    font-size: 50px;
-
-}
-
-.detail_recommend_area{
-    /* border: 1px solid red; */
-    margin: 0 20%;
-    overflow: hidden;
+    .detail_recommend_spot{
+        width: 80%;
+        margin: 0 auto;
+        /* border: 1px solid blue; */
         display: flex;
         justify-content: space-around;
+        overflow: hidden;
+    
+    }
+    
+    .detail_recommend_spot > img{
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+    
 }
 
-.detail_recommend_area > a img{
-    width: 250px;
-    height: 250px;
-}
-
-
-
-
-/*///////////   태블릿     /////////////*/
 
 
 
