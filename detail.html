@@ -13,10 +13,13 @@
   <script defer src="./js/common.js"></script>
   <script src="./js/detail.js"></script>
   <script src="./js/detail.json"></script>
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
 </head>
 
@@ -85,21 +88,20 @@
         <h2>YOU MAY ALSO LIKE</h2>
 
         <div class="detail_recommend_cont">
-          <span class="material-symbols-outlined">arrow_back_ios</span>
-          <span class="material-symbols-outlined">arrow_forward_ios</span>
-
-          <div class="detail_recommend_area">
-            <div class="detail_recommend_spot">
-
-              <img src="./image/detail_img/detail_01_slide01.jpg" alt="">
-              <img src="./image/detail_img/detail_01_slide02.jpg" alt="">
-              <img src="./image/detail_img/detail_01_slide03.jpg" alt="">
-              <!-- <img src="./image/detail_img/detail_01_slide04.jpg" alt=""> -->
-
+          <div class="detail_recommend_area swiper mySwiper">
+            <div class="detail_recommend_spot swiper-wrapper">
+              <figure class="swiper-slide"><img src="./image/detail_img/detail_01_slide01.jpg"></figure>
+              <figure class="swiper-slide"><img src="./image/detail_img/detail_01_slide02.jpg"></figure>
+              <figure class="swiper-slide"><img src="./image/detail_img/detail_01_slide03.jpg"></figure>
+              <figure class="swiper-slide"><img src="./image/detail_img/detail_01_slide04.jpg"></figure>
             </div>
+            <div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+            <div class="swiper-pagination"></div>
           </div>
-          <!-- <a href="#"><img src="./image/detail_img/01/detail_sub06.jpg" alt=""></a> -->
-
+        
         </div>
 
       </div>
