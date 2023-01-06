@@ -15,6 +15,10 @@ body {
   text-transform: uppercase;
 }
 
+.mb0 {
+  margin-bottom: 0;
+}
+
 .about_wrapper {
   width: 100%;
 }
@@ -77,4 +81,85 @@ body {
 
 .sec_img04 {
   background-image: url("../image/about_img/about_bg04.jpeg");
+}
+
+@media (max-width: 480px) {
+  body {
+    color: var(--text-color01);
+    background-color: var(--black);
+  }
+  .wrap {
+    width: 90%;
+  }
+  .mb180 {
+    margin-bottom: 4.5rem;
+  }
+  .row-rev {
+    flex-direction: row-reverse;
+  }
+  .sec_title {
+    padding-top: 6.5rem;
+    margin-bottom: 2.5rem;
+    font-size: 30px;
+  }
+  .bg_sec {
+    width: 100%;
+    height: 300px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .sec_img01 {
+    background-image: url("../image/about_img/about_bg01.jpeg");
+  }
+  .sec_img02 {
+    background-image: url("../image/about_img/about_bg02.jpeg");
+  }
+  .sec_img03 {
+    background-image: url("../image/about_img/about_bg03.jpeg");
+  }
+  .sec_img04 {
+    background-image: url("../image/about_img/about_bg04.jpeg");
+  }
+  .about_wrapper .about_cont {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 2.5rem;
+  }
+  .about_wrapper .about_cont:nth-of-type(2) {
+    flex-direction: row;
+  }
+  .about_wrapper .about_cont:nth-of-type(2) .month_area {
+    background-color: #000;
+  }
+  .about_wrapper .about_cont .about_img {
+    width: 100%;
+  }
+  .about_wrapper .about_cont .about_img img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .about_wrapper .about_cont .about_area {
+    width: 100%;
+    padding: 1.5rem;
+  }
+  .about_wrapper .about_cont .about_area .about_spot {
+    width: 100%;
+  }
+  .about_wrapper .about_cont .about_area .about_spot .about_title {
+    font-size: 20px;
+  }
+  .about_wrapper .about_cont .about_area .about_spot p:nth-of-type(1) {
+    margin-top: 15px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .about_wrapper .about_cont .about_area .about_spot p:nth-of-type(2) {
+    margin-top: 15px;
+    font-size: 15px;
+    line-height: 20px;
+  }
 }/*# sourceMappingURL=about.css.map */

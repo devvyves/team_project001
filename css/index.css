@@ -28,7 +28,7 @@ h2 .main_title {
 h2 .main_title::after {
   content: "";
   display: block;
-  width: 90%;
+  width: 100%;
   height: 2px;
   position: absolute;
   bottom: 14px;
@@ -94,18 +94,23 @@ h2 .main_title::after {
      object-fit: cover;
 }
 .month_wrapper .month_cont .month_area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: calc(65% - 40px);
-  padding: 50px;
   background-color: #1E212A;
 }
-.month_wrapper .month_cont .month_area .month_title {
+.month_wrapper .month_cont .month_area .month_spot {
+  width: 90%;
+}
+.month_wrapper .month_cont .month_area .month_spot .month_title {
   position: relative;
   font-size: 30px;
   font-weight: 600;
   color: var(--white);
   text-transform: uppercase;
 }
-.month_wrapper .month_cont .month_area .month_title::after {
+.month_wrapper .month_cont .month_area .month_spot .month_title::after {
   content: "";
   display: block;
   width: 100%;
@@ -115,10 +120,10 @@ h2 .main_title::after {
   left: 0;
   background-color: #7C6D56;
 }
-.month_wrapper .month_cont .month_area p:nth-of-type(1) {
+.month_wrapper .month_cont .month_area .month_spot p:nth-of-type(1) {
   margin-top: 40px;
 }
-.month_wrapper .month_cont .month_area p:nth-of-type(2) {
+.month_wrapper .month_cont .month_area .month_spot p:nth-of-type(2) {
   margin-top: 30px;
 }
 
@@ -179,4 +184,163 @@ h2 .main_title::after {
 .making_perfume_wrapper .wrap .making_perfume_cont p:nth-of-type(2) {
   font-size: 20px;
   font-weight: 300;
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 15px;
+  }
+  .wrap {
+    width: 90%;
+  }
+  .mb180 {
+    margin-bottom: 4.5rem;
+  }
+  a.more_btn {
+    width: 220px;
+    margin-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--white);
+    border: 2px solid #7C6D56;
+  }
+  h2 {
+    margin-bottom: 2.5rem;
+  }
+  h2 .main_title {
+    font-size: 30px;
+  }
+  h2 .main_title::after {
+    bottom: 9px;
+  }
+  .collection_wrapper .collection_list {
+    flex-wrap: wrap;
+  }
+  .collection_wrapper .collection_list figure {
+    width: calc(49% - 7px);
+  }
+  .collection_wrapper .collection_list figure:nth-of-type(1),
+.collection_wrapper .collection_list figure :nth-of-type(2) {
+    margin-bottom: 30px;
+  }
+  .collection_wrapper .collection_list figure:nth-of-type(3),
+.collection_wrapper .collection_list figure :nth-of-type(4) {
+    margin-bottom: 0;
+  }
+  .collection_wrapper .collection_list figure img {
+    width: 100%;
+  }
+  .collection_wrapper .collection_list figure figcaption {
+    margin-top: 10px;
+    font-size: 20px;
+    color: var(--white);
+    text-transform: uppercase;
+  }
+  .month_wrapper {
+    width: 100%;
+  }
+  .month_wrapper .month_cont {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 2.5rem;
+  }
+  .month_wrapper .month_cont:nth-of-type(2) {
+    flex-direction: row;
+  }
+  .month_wrapper .month_cont:nth-of-type(2) .month_area {
+    background-color: #000;
+  }
+  .month_wrapper .month_cont .month_img {
+    width: 100%;
+  }
+  .month_wrapper .month_cont .month_img img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .month_wrapper .month_cont .month_area {
+    width: 100%;
+    padding: 1.5rem;
+  }
+  .month_wrapper .month_cont .month_area .month_spot {
+    width: 100%;
+  }
+  .month_wrapper .month_cont .month_area .month_spot .month_title {
+    font-size: 20px;
+  }
+  .month_wrapper .month_cont .month_area .month_spot .month_title::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    background-color: #7C6D56;
+  }
+  .month_wrapper .month_cont .month_area .month_spot p:nth-of-type(1) {
+    margin-top: 15px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .month_wrapper .month_cont .month_area .month_spot p:nth-of-type(2) {
+    margin-top: 15px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .new_wrapper .new_cont {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  .new_wrapper .new_area {
+    width: 100%;
+  }
+  .new_wrapper .new_area:first-child {
+    margin-bottom: 2.5rem;
+  }
+  .new_wrapper .new_area .new_spot {
+    width: 100%;
+  }
+  .new_wrapper .new_area .new_spot img {
+    width: 100%;
+  }
+  .new_wrapper .new_area .new_text_spot {
+    margin-top: 15px;
+  }
+  .new_wrapper .new_area .new_text_spot b {
+    margin-bottom: 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  .new_wrapper .new_area .new_text_spot p {
+    line-height: 20px;
+  }
+  .making_perfume_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    padding-top: 0px;
+    background-position: 55% 50%;
+  }
+  .making_perfume_wrapper .wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .making_perfume_wrapper .wrap .making_perfume_cont {
+    text-align: center;
+  }
+  .making_perfume_wrapper .wrap .making_perfume_cont h2 {
+    font-size: 30px;
+  }
+  .making_perfume_wrapper .wrap .making_perfume_cont p:nth-of-type(1) {
+    font-size: 30px;
+  }
+  .making_perfume_wrapper .wrap .making_perfume_cont p:nth-of-type(2) {
+    font-size: 15px;
+    line-height: 20px;
+  }
 }/*# sourceMappingURL=index.css.map */

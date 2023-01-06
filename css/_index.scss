@@ -1,0 +1,263 @@
+$mobile: 480px;
+$tablet: 768px;
+
+
+// @mixin device ($min, $max) {
+
+//   @media (min-width: $min) and (max-width: $max) {
+//     @content;
+
+//   }
+// }
+
+
+@mixin device ($max) {
+
+  @media (max-width: $max) {
+    @content;
+
+  }
+}
+
+@include device (480px) {
+  body {
+    font-size: 15px;
+  }
+
+  .wrap {
+    width: 90%;
+  }
+
+  .mb180 {
+    margin-bottom: 4.5rem;
+  }
+
+
+  // index common css
+
+  a.more_btn {
+    width: 220px;
+    margin-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--white);
+    border: 2px solid #7C6D56;
+  }
+
+
+
+  // main common title
+
+
+  h2 {
+    margin-bottom: 2.5rem;
+
+    .main_title {
+
+      font-size: 30px;
+
+      &::after {
+        bottom: 9px;
+      }
+    }
+  }
+
+
+  // main movie
+
+
+
+
+  // best collection
+
+  .collection_wrapper {
+
+
+    .collection_list {
+      flex-wrap: wrap;
+
+      figure {
+        width: calc(49% - 7px);
+
+        &:nth-of-type(1),
+        :nth-of-type(2) {
+          margin-bottom: 30px;
+        }
+
+        &:nth-of-type(3),
+        :nth-of-type(4) {
+          margin-bottom: 0;
+        }
+
+        img {
+          width: 100%;
+        }
+
+        figcaption {
+          margin-top: 10px;
+          font-size: 20px;
+          color: var(--white);
+          text-transform: uppercase;
+        }
+      }
+
+    }
+  }
+
+
+  // purfume of the month
+
+
+  .month_wrapper {
+    width: 100%;
+
+    .month_cont {
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      margin-bottom: 2.5rem;
+
+      &:nth-of-type(2) {
+        flex-direction: row;
+
+        .month_area {
+          background-color: #000;
+        }
+      }
+
+      .month_img {
+        width: 100%;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+
+      .month_area {
+        width: 100%;
+        padding: 1.5rem;
+
+        .month_spot {
+          width: 100%;
+
+          .month_title {
+            font-size: 20px;
+
+            &::after {
+              content: '';
+              display: block;
+              width: 100%;
+              height: 2px;
+              position: absolute;
+              bottom: 0px;
+              left: 0;
+              background-color: #7C6D56;
+            }
+          }
+
+          p {
+            &:nth-of-type(1) {
+              margin-top: 15px;
+              font-size: 15px;
+              line-height: 20px;
+            }
+
+            &:nth-of-type(2) {
+              margin-top: 15px;
+              font-size: 15px;
+              line-height: 20px;
+            }
+          }
+        }
+
+      }
+
+    }
+  }
+
+
+
+  // new collection
+
+  .new_wrapper {
+
+    .new_cont {
+      justify-content: flex-start;
+      flex-wrap: wrap;
+    }
+
+    .new_area {
+      width: 100%;
+
+      &:first-child {
+        margin-bottom: 2.5rem;
+      }
+
+      .new_spot {
+        width: 100%;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .new_text_spot {
+        margin-top: 15px;
+
+        b {
+          margin-bottom: 15px;
+          font-size: 20px;
+          text-transform: uppercase;
+        }
+
+        p {
+          line-height: 20px;
+        }
+      }
+    }
+  }
+
+
+
+
+  // perfume make
+
+  // wrap -> cont -> area -> spot -> box
+
+  .making_perfume_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    padding-top: 0px;
+    background-position: 55% 50%;
+
+    .wrap {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .making_perfume_cont {
+        text-align: center;
+
+        h2 {
+          font-size: 30px;
+        }
+
+        p {
+          &:nth-of-type(1) {
+            font-size: 30px;
+          }
+
+          &:nth-of-type(2) {
+            font-size: 15px;
+            line-height: 20px;
+          }
+        }
+      }
+
+    }
+  }
+}

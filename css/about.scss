@@ -17,6 +17,9 @@ body {
   text-transform: uppercase;
 }
 
+.mb0 {
+  margin-bottom: 0;
+}
 
 .about_wrapper {
   width: 100%;
@@ -90,3 +93,6 @@ body {
 .sec_img04 {
   background-image: url('../image/about_img/about_bg04.jpeg');
 }
+
+
+@import "_about";
