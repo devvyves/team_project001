@@ -1,6 +1,22 @@
 @import url("./common.css"); /*# sourceMappingURL=detail.css.map */
 
 /*  /////////////////  메인  /////////////////   */
+body {
+  position: relative;
+  height: 100vh;
+}
+/* body .curtain {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  z-index: 999;
+  transition: height 1000ms;
+}
+body .curtain.active {
+  height: 0;
+} */
 
 .detail_main_visual {
   width: 100%;
@@ -41,7 +57,7 @@
 }
 .detail_spot > p {
   font-style: Mukta;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 300;
 }
 .detail_spot {
@@ -136,7 +152,7 @@ color: black;
   }
   .detail_spot > h2 {
     margin-bottom: 20px;
-    font-size: 40px;
+    font-size: 30px;
   }
   .detail_spot > p {
     font-size: 20px;
@@ -176,7 +192,7 @@ color: black;
     justify-content: center;
     margin-bottom: 40px;
     font-style: Mukta;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 600;
   }
 
@@ -205,7 +221,7 @@ color: black;
 @media screen and (max-width: 1024px) {
   .detail_main_visual {
     width: 100%;
-    height: 300px;
+    height: 250px;
     background-image: url("../image/detail_img/detail_01_visual01.jpg");
     margin-bottom: 6.5rem;
   }
@@ -213,13 +229,13 @@ color: black;
   .detail_image_wrapper {
     /* border: 1px solid red; */
     display: flex;
-    flex-direction: column;
+    
   }
   .detail_cont {
     /* border: 3px solid black; */
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
   .detail_cont > img {
     width: 100%;
@@ -234,21 +250,21 @@ color: black;
     align-items: center;
     text-align: left;
     margin-bottom: 30px;
-    order: 1;
+    order: 0;
   }
   .detail_spot > h2 {
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 23px;
   }
   .detail_spot > p {
-    font-size: 15px;
+    font-size: 18px;
     line-height: 20px;
   }
   .detail_spot {
-    width: 80%;
+    width: 90%;
   }
   .detail_img_area {
-    order: 0;
+    order: 1;
   }
   .detail_img_area > img {
     margin-bottom: 20px;
@@ -257,11 +273,11 @@ color: black;
   .detail_text_wrapper {
     /* border: 1px solid red; */
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     margin-bottom: 4.5rem;
   }
   .detail_img_area {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     order: 0;
   }
@@ -280,9 +296,9 @@ color: black;
     /* border: 1px solid blue; */
     display: flex;
     justify-content: center;
-    margin-bottom: 40px;
+    margin-bottom: 0;
     font-style: Mukta;
-    font-size: 40px;
+    font-size: 23px;
     font-weight: 600;
   }
 
@@ -311,7 +327,7 @@ color: black;
 @media screen and (max-width: 768px) {
   .detail_main_visual {
     width: 100%;
-    height: 300px;
+    height: 250px;
     background-image: url("../image/detail_img/detail_01_visual01.jpg");
     margin-bottom: 6.5rem;
   }
@@ -323,7 +339,7 @@ color: black;
   }
   .detail_cont {
     /* border: 3px solid black; */
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     margin-bottom: 20px;
   }
@@ -344,14 +360,14 @@ color: black;
   }
   .detail_spot > h2 {
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 23px;
   }
   .detail_spot > p {
-    font-size: 15px;
+    font-size: 18px;
     line-height: 20px;
   }
   .detail_spot {
-    width: 80%;
+    width: 90%;
   }
   .detail_img_area {
     order: 0;
@@ -367,7 +383,7 @@ color: black;
     margin-bottom: 4.5rem;
   }
   .detail_img_area {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     order: 0;
   }
@@ -386,9 +402,9 @@ color: black;
     /* border: 1px solid blue; */
     display: flex;
     justify-content: center;
-    margin-bottom: 40px;
+    margin-bottom: 0;
     font-style: Mukta;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 600;
   }
 
@@ -493,9 +509,9 @@ color: black;
     /* border: 1px solid blue; */
     display: flex;
     justify-content: center;
-    margin-bottom: 40px;
+    margin-bottom: 0;
     font-style: Mukta;
-    font-size: 40px;
+    font-size: 20px;
     font-weight: 600;
   }
 

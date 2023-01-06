@@ -1,3 +1,12 @@
+const Curtain = document.querySelector(".curtain");
+
+/* ========== 커튼 ========== */
+setTimeout(() => {
+  Curtain.classList.add("active");
+}, 1000);
+
+
+
 function init(){
     var swiper = new Swiper(".mySwiper", {
       loop: true,
