@@ -2,6 +2,8 @@ const imgBox = document.querySelectorAll(".images > div");
 const textBox = document.querySelector(".collection_wraper > p");
 const Curtain = document.querySelector(".curtain");
 
+
+
 /* ========== 커튼 ========== */
 setTimeout(() => {
   Curtain.classList.add("active");
@@ -57,15 +59,15 @@ imgBox.forEach(function (el, key) {
         window.location.href =
           "./detail.html";
       } else if (key == 1) {
-        window.location.href = "#";
+        window.location.href = "./detail.html";
       } else if (key == 2) {
-        window.location.href = "#";
+        window.location.href = "./detail.html";
       } else if (key == 3) {
-        window.location.href = "#";
+        window.location.href = "./detail.html";
       } else if (key == 4) {
-        window.location.href = "#";
+        window.location.href = "./detail.html";
       } else if (key == 5) {
-        window.location.href = "#";
+        window.location.href = "./detail.html";
       }
     }, 4000);
   });
