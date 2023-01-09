@@ -20,6 +20,8 @@ body .curtain.active {
 /*//////////////////////////*/
 
 section {
+  font-style: Mukta;
+  font-weight: 600;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -129,6 +131,7 @@ section {
   /* border: 1px blue solid; */
   height: 450px;
 }
+
 .swiper-slide{
   display: flex;
   flex-direction: column;
@@ -576,6 +579,17 @@ color: black;
 
 
 @media screen and (max-width: 480px) {
+  section {
+    width: 100%;
+    transform: translateY(10%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
   .detail_main_visual {
     height: 300px;
     background-image: url("../image/detail_img/detail_01_visual02.jpg");
@@ -646,7 +660,8 @@ color: black;
   .detail_recommend_wrapper {
     /* border: 1px solid black; */
     position: relative;
-    margin-bottom: 180px;
+    margin-bottom: 6.5rem;
+    margin-top: 4.5rem;
   }
   .detail_recommend_wrapper > h2 {
     /* border: 1px solid blue; */
