@@ -8,14 +8,19 @@ $('footer').load('./inc.html .footer_wrapper');
 
 function headerFn() {
 
-
+  const url = location.href;
   const headBar = document.querySelector('.header_wrapper');
+  const elMenu = document.querySelectorAll('.header_menu li a');
   const logo = document.querySelector('.logo > a > img');
 
   const moHeadBar = document.querySelector('.m_header_wrapper');
   const moMenuBar = document.querySelector('.m_menu_wrapper');
   const moHeadBtn = document.querySelector('.m_header_wrapper .m_header_cont .btn_wrapper nav button');
   const moLogo = document.querySelector('.m_logo > a > img');
+
+
+
+
 
 
   function headerActive() {
@@ -34,25 +39,6 @@ function headerFn() {
     });
   }
   headerActive();
-
-
-
-
-  // function moHeaderActive() {
-
-  //   window.addEventListener('scroll', () => {
-  //     if (window.pageYOffset == 0) {
-  //       moHeadBar.classList.remove('m_active');
-  //       moMenuBar.classList.remove('m_menu_active');
-  //     } else {
-  //       moHeadBar.classList.add('m_active');
-  //     }
-
-  //   });
-  // }
-
-  // moHeaderActive();
-
 
 
   function moBtn() {
@@ -84,22 +70,33 @@ function headerFn() {
   moBtn();
 
   function logoImg() {
-    if (headBar.classList.contains('active')) {
-      logo.src = "./image/logo_black.png";
-    }
-    else {
-      logo.src = "./image/logo_white.png";
+    if (!url.match('collection')) {
+      if (headBar.classList.contains('active')) {
+        logo.src = "./image/logo_black.png";
+      }
+      else {
+        logo.src = "./image/logo_white.png";
+      }
     }
   }
 
   function moLogoImg() {
-    console.log(moHeadBar.classList.contains('m_active'))
-    if (moHeadBar.classList.contains('m_active')) {
-      moLogo.src = "./image/logo_black.png";
-      console.log(2321);
-    } else {
-      moLogo.src = "./image/logo_white.png";
+    if (!url.match('collection')) {
+      if (moHeadBar.classList.contains('m_active')) {
+        moLogo.src = "./image/logo_black.png";
+      } else {
+        moLogo.src = "./image/logo_white.png";
+      }
     }
+  }
+
+
+  if (url.match('collection')) {
+    logo.src = "./image/logo_black.png";
+    moLogo.src = "./image/logo_black.png";
+    elMenu.forEach((el) => {
+      el.style = `color: var(--black);`;
+    });
   }
 
 }
