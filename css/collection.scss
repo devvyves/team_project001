@@ -16,7 +16,8 @@ body {
     }
   }
   .collection_wraper {
-    margin: 120px 0;
+    padding: 120px 0 0 0;
+    margin-bottom: 120px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -68,7 +69,8 @@ body {
   .wrap {
     width: 90%;
     .collection_wraper {
-      padding: 6.5rem 0;
+      padding: 6.5rem 0 0 0;
+      margin-bottom: 6.5rem;
       h1 {
         font-size: 33px;
       }
@@ -114,6 +116,7 @@ body {
   .wrap {
     width: 90%;
     .collection_wraper {
+      margin-bottom: 6.5rem;
       h1 {
         font-size: 30px;
       }
