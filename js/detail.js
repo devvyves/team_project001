@@ -1,13 +1,75 @@
-// const Curtain = document.querySelector(".curtain");
-
 /* ========== 커튼 ========== */
 setTimeout(() => {
   Curtain.classList.add("active");
 }, 1000);
 
 
+//////////////////   페이지 json  ///////////////////
+const paramStr = location.href.split('?')[1]; // 버튼 url
+const searchParams = new URLSearchParams(paramStr);
+const query = searchParams.get('query');    
 
+
+
+function kkk (){
+  
+fetch('./js/detail.json')
+.then(res=>res.json())
+  .then(data=>{
+    console.log(data[query].info[0].visual)
+    // console.log(data[query]);
+    // console.log(data[query].info[0]);
+    // console.log(data[query].info[0].url);
+    // console.log(data[query].info[0].text);
+    // console.log(data[query].slide[0]);
+    const Item01 = document.querySelector('.detail_main_visual');
+    const Item02 = document.querySelector('.detail_image_wrapper  ');
+    const Item03 = document.querySelector('.detail_text_wrapper ');
+
+      Item01.innerHTML =
+      `<div  style="background-image: url(${data[query].info[0].visual});" class="detail_main_visual">
+          <section>222</section>
+        </div>`
+
+
+
+      Item02.innerHTML =`
+       
+        <div class="detail_cont">
+          <img src="${data[query].info[0].url}" alt="">
+        </div>
+        <div class="detail_area active">
+          <div class="detail_spot">
+            <h2>${data[query].info[0].title}</h2>
+            <p>
+              ${data[query].info[0].text}
+            </p>
+          </div>
+        </div>`;
+      
+      Item03.innerHTML =`
+        <div class="detail_area">
+          <div class="detail_spot">
+            <h2>${data[query].info[1].title}</h2>
+            <p>
+              ${data[query].info[1].text}
+            </p>
+          </div>
+        </div>
+        <div class="detail_img_area">
+          <img src="${data[query].info[1].url}" alt="">
+        </div>`;
+        
+    
+  })
+}
+window.addEventListener('load',kkk);
+
+ 
 function init(){
+
+ ////////////////////  슬라이드  //////////////////
+
     var swiper = new Swiper(".mySwiper", {
       loop: true,
       pagination: {
@@ -36,7 +98,7 @@ function init(){
           spaceBetween:0,
         },
         1400:{
-          slidesPerView:3,
+          slidesPerView:4,
           spaceBetween:0,
         }
       },
@@ -47,15 +109,15 @@ function init(){
           if(elActive)
             elActive.style ='color:red;';
     
-          console.log(
-            e.activeIndex,
-            e.realIndex
-          )
+          // console.log(
+          // e.activeIndex,
+          // e.realIndex
+          // )
         }
       }
     });
-    }
-    window.onload = init;
+}
+window.addEventListener('load',init);
 
 ////////////  소개 이벤트 /////////////////
 const elFigure = document.querySelectorAll("div");
@@ -85,12 +147,12 @@ const elMain = document.querySelector("main"),
 
 let move = 0;
 
-elSec.forEach(function (elSection, key) {
-  elAside.innerHTML += "<button></button>";
-  elSection.addEventListener("mousewheel", function () {
-    animation(key);
-  });
-});
+// elSec.forEach(function (elSection, key) {
+//   elAside.innerHTML += "<button></button>";
+//   elSection.addEventListener("mousewheel", function () {
+//     animation(key);
+//   });
+// });
 
 const elBtns = document.querySelectorAll("aside button");
 let idx = 0;

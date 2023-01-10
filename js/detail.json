@@ -1,158 +1,138 @@
 {
-	"page01": 
-    {
-            
-        "img": [
-            {"url":"../image/detail_01_main01.jpg"},
-            {"url":"../image/detail_01_main02.jpg"}
+    "page01": {
+        "info": [
+            {
+                "visual": "../image/detail_img/detail_01_visual02.jpg",
+                "section":"",
+                "title": "01  SANTAL 33",
+                "url": "../image/detail_img/detail_01_main01.jpg",
+                "text": "Imagine sitting in solitude on the rugged, wide plains of the American West, firelight on your face, indigo-blue night skies above. There is nothing around save for the soft, desert wind. You. Are. Free..From this defining vision was born SANTAL 33: a perfume that touches the vast and wild universality of this dream... that intoxicates... It combines a mix of cardamom and notes of iris and violet, which crackle in the form  ula. Added to this smoking wood alloy (Australian sandalwood, cedarwood) are some spicy, leathery, musky notes, giving this perfume its signature and addictive comforting scent."
+            },
+            {
+                "title": "02  LYS 41",
+                "url": "../image/detail_img/detail_01_main02.jpg",
+                "text": "LYS 41 is an overwhelming white floral – a blend of jasmine, tuberose absolute, and lily, bewitching in its noble, warm, and sunny approach – yet treacherous once caught in its web of noble woods, vanilla Madagascar, and musks. LYS 41 rewards those looking for a statement with an addictive floral buzz that is as potent as its wake and as insistent as the people following you around. Good luck."
+            }
         ],
-        
-        "title" : [
-            {"title01" : "01  SANTAL 33"},
-            {"title01" : "02  LYS 41"}
-        ],
-
-        "text" : [
-            {"text01" : "Imagine sitting in solitude on the rugged, wide plains of the American West, firelight on your face, indigo-blue night skies above. There is nothing around save for the soft, desert wind. You. Are. Free..From this defining vision was born SANTAL 33: a perfume that touches the vast and wild universality of this dream... that intoxicates... It combines a mix of cardamom and notes of iris and violet, which crackle in the form  ula. Added to this smoking wood alloy (Australian sandalwood, cedarwood) are some spicy, leathery, musky notes, giving this perfume its signature and addictive comforting scent."},
-            {"text01" : "LYS 41 is an overwhelming white floral – a blend of jasmine, tuberose absolute, and lily, bewitching in its noble, warm, and sunny approach – yet treacherous once caught in its web of noble woods, vanilla Madagascar, and musks. LYS 41 rewards those looking for a statement with an addictive floral buzz that is as potent as its wake and as insistent as the people following you around. Good luck."}
-        ],
-        "slide":[
-            {"url" : "../image/detail_01_slide01.jpg"},
-            {"url" : "../image/detail_01_slide02.jpg"},
-            {"url" : "../image/detail_01_slide03.jpg"},
-            {"url" : "../image/detail_01_slide04.jpg"}
+        "slide": [
+            "../image/detail_img/detail_01_slide01.jpg",
+            "../image/detail_img/detail_01_slide02.jpg",
+            "../image/detail_img/detail_01_slide03.jpg",
+            "../image/detail_img/detail_01_slide04.jpg"
         ]
     },
-
-    "page02": 
-    {
-            
-        "img": [
-            {"url":"../image/detail_02_main01.jpg"},
-            {"url":"../image/detail_02_main02.jpg"}
+    "page02": {
+        "info": [
+            {
+                "visual": "../image/detail_img/detail_02_visual.jpg",
+                "section":"",
+                "title": "01  BLANCHE",
+                "url": "../image/detail_img/detail_02_main01.jpg",
+                "text": "A longstanding icon in the Byredo catalogue, Blanche explores the smell of texture and skin; bodies slipping beneath fresh sheets; laundry baskets filled to the brim; a punch of detergent. An aldehyde hit softens into delicate rose; through sandalwood and musk, the allure and intimacy of human touch.The smell of texture and skins; bodies slipping beneath fresh sheets after a long day spent; laundry baskets filled to the brim; a punch of detergent. At once exploring softness and strength, Blanche is an intimate expression, powerful in its purity."
+            },
+            {
+                "title": "02  LA TULIPE",
+                "url": "../image/detail_img/detail_02_main02.jpg",
+                "text": "When tulips start blooming, it is the sign that Spring has sprung. With the dull days of winter at an end, gardens come to life with bold colors and clean-cut shapes. Tulips may not be the first flowers you would think of as being fragrant, but a number are definitely sweet-smelling. Byredo presents Tulipmania, a new hand care fragrance inspired by the historical phenomenon also known as “tulip fever”, a speculative frenzy over tulip bulbs. Almost ten years after launching La Tulipe (2010), a fresh perfume with floral notes conceived as an ode to spring, Byredo continues to explore the infinite potentialities of this silent smell. With a persistent base note of blonde woods and a flowery transparency accentuated by notes of freesia."
+            }
         ],
-        
-        "title" : [
-            {"title02" : "01  BLANCHE"},
-            {"title02" : "02  LA TULIPE"}
-        ],
-
-        "text" : [
-            
-            {"text02" : "A longstanding icon in the Byredo catalogue, Blanche explores the smell of texture and skin; bodies slipping beneath fresh sheets; laundry baskets filled to the brim; a punch of detergent. An aldehyde hit softens into delicate rose; through sandalwood and musk, the allure and intimacy of human touch.The smell of texture and skins; bodies slipping beneath fresh sheets after a long day spent; laundry baskets filled to the brim; a punch of detergent. At once exploring softness and strength, Blanche is an intimate expression, powerful in its purity."},
-            {"text02" : "When tulips start blooming, it is the sign that Spring has sprung. With the dull days of winter at an end, gardens come to life with bold colors and clean-cut shapes. Tulips may not be the first flowers you would think of as being fragrant, but a number are definitely sweet-smelling. Byredo presents Tulipmania, a new hand care fragrance inspired by the historical phenomenon also known as “tulip fever”, a speculative frenzy over tulip bulbs. Almost ten years after launching La Tulipe (2010), a fresh perfume with floral notes conceived as an ode to spring, Byredo continues to explore the infinite potentialities of this silent smell. With a persistent base note of blonde woods and a flowery transparency accentuated by notes of freesia."}
-        ],
-        "slide":[
-            {"url" : "../image/detail_02_slide01.jpg"},
-            {"url" : "../image/detail_02_slide02.jpg"},
-            {"url" : "../image/detail_02_slide03.jpg"},
-            {"url" : "../image/detail_02_slide04.jpg"}
+        "slide": [
+            "../image/detail_img/detail_02_slide01.jpg",
+            "../image/detail_img/detail_02_slide02.jpg",
+            "../image/detail_img/detail_02_slide03.jpg",
+            "../image/detail_img/detail_02_slide04.jpg"
         ]
     },
+    "page03": {
+        "info": [
+            {
+                "visual": "../image/detail_img/detail_03_visual.jpg",
+                "section":"",
 
-    "page03": 
-    {
-            
-        "img": [
-            {"url":"../image/detail_03_main01.jpg"},
-            {"url":"../image/detail_03_main02.jpg"}
+                "title": "01  ORPHÉON EAU DE",
+                "url": "../image/detail_img/detail_03_main01.jpg",
+                "text": "Juniper berry, Cedar, Tonka bean, Jasmine Like the memory of a scent, Orphéon captures the warm atmosphere of an iconic night club bar in the Saint Germain quarter of Paris. In this new eau de parfum, woody, floral and subtly spicy, the softness of patinated woods meets the wisps of tobacco and the linger of make-up powder."
+            },
+            {
+                "title": "02  EAU DES SENS EAU DE TOILETTE",
+                "url": "../image/detail_img/detail_03_main02.jpg",
+                "text": "Orange Blossom, Angelica root, Patchouli, Juniper berry A composition that creates a sense of mystery. It caresses the skin and makes your mouth water like an indulgent treat, awakening you with its freshness. Eau des Sens owes its originality to the very idea behind its creation: bringing together all the dimensions of bitter orange tree, its branches, leaves and fruit. L’Eau des Sens is a composition that creates confusion. It caresses the skin to the point that you imagine you can touch it. When you breathe in its scent, it mixes up your senses, making your mouth water as if it were an indulgent treat, awakening you with its freshness like the sound of a rushing waterfall. "
+            }
         ],
-        
-        "title" : [
-            {"title03" : "01  ORPHÉON EAU DE"},
-            {"title03" : "02  EAU DES SENS EAU DE TOILETTE"}
-        ],
-
-        "text" : [
-            {"text03" : "Juniper berry, Cedar, Tonka bean, Jasmine Like the memory of a scent, Orphéon captures the warm atmosphere of an iconic night club bar in the Saint Germain quarter of Paris. In this new eau de parfum, woody, floral and subtly spicy, the softness of patinated woods meets the wisps of tobacco and the linger of make-up powder."},
-            {"text03" : "Orange Blossom, Angelica root, Patchouli, Juniper berry A composition that creates a sense of mystery. It caresses the skin and makes your mouth water like an indulgent treat, awakening you with its freshness. Eau des Sens owes its originality to the very idea behind its creation: bringing together all the dimensions of bitter orange tree, its branches, leaves and fruit. L’Eau des Sens is a composition that creates confusion. It caresses the skin to the point that you imagine you can touch it. When you breathe in its scent, it mixes up your senses, making your mouth water as if it were an indulgent treat, awakening you with its freshness like the sound of a rushing waterfall. "}
-        ],
-
-        "slide":[
-            {"url" : "../image/detail_03_slide01.jpg"},
-            {"url" : "../image/detail_03_slide02.jpg"},
-            {"url" : "../image/detail_03_slide03.jpg"},
-            {"url" : "../image/detail_03_slide04.jpg"}
+        "slide": [
+            "../image/detail_img/detail_03_slide01.jpg",
+            "../image/detail_img/detail_03_slide02.jpg",
+            "../image/detail_img/detail_03_slide03.jpg",
+            "../image/detail_img/detail_03_slide04.jpg"
         ]
     },
+    "page04": {
+        "info": [
+            {
+                "visual": "../image/detail_img/detail_04_visual.jpg",
+                "section":"",
 
-    "page04": 
-    {
-            
-        "img": [
-            {"url":"../image/detail_04_main01.jpg"},
-            {"url":"../image/detail_04_main02.jpg"}
+                "title": "01  Blackberry & Bay Cologne",
+                "url": "../image/detail_img/detail_04_main01.jpg",
+                "text": "scent of purity. Blackberry-picking childhood memories, blackberry-stained lips and hands. The freshness of just-harvested bay leaves is tinged with tangy  blackberry juice. It's an alluring, vibrant, refreshing scent.Childhood memories of blackberry picking...A burst of deep, tart blackberry juice, blending with the freshness of just-gathered bay and brambly woods. Vibrant and verdant."
+            },
+            {
+                "title": "02 Nutmeg & Ginger Cologne",
+                "url": "../image/detail_img/detail_04_main02.jpg",
+                "text": "The first scent from Jo Malone London. Sandalwood and cedarwood are seasoned with nutmeg and vibrant ginger. Unexpected and addictive. Available exclusively online. Creamy, warm and sensual, it strengthens and extends the longevity of the scent. Spicy and fresh with a zingy lemon quality, it opens the fragrance with lively brightness."
+            }
         ],
-        
-        "title" : [
-            {"title04" : "01  Blackberry & Bay Cologne"},
-            {"title04" : "02 Nutmeg & Ginger Cologne"}
-        ],
-
-        "text" : [
-            {"text04" : "scent of purity. Blackberry-picking childhood memories, blackberry-stained lips and hands. The freshness of just-harvested bay leaves is tinged with tangy  blackberry juice. It's an alluring, vibrant, refreshing scent.Childhood memories of blackberry picking...A burst of deep, tart blackberry juice, blending with the freshness of just-gathered bay and brambly woods. Vibrant and verdant."},
-            {"text04" : "The first scent from Jo Malone London. Sandalwood and cedarwood are seasoned with nutmeg and vibrant ginger. Unexpected and addictive. Available exclusively online. Creamy, warm and sensual, it strengthens and extends the longevity of the scent. Spicy and fresh with a zingy lemon quality, it opens the fragrance with lively brightness."}
-        ],
-        "slide":[
-            {"url" : "../image/detail_04_slide01.jpg"},
-            {"url" : "../image/detail_04_slide02.jpg"},
-            {"url" : "../image/detail_04_slide03.jpg"},
-            {"url" : "../image/detail_04_slide04.jpg"}
+        "slide": [
+            "../image/detail_img/detail_04_slide01.jpg",
+            "../image/detail_img/detail_04_slide02.jpg",
+            "../image/detail_img/detail_04_slide03.jpg",
+            "../image/detail_img/detail_04_slide04.jpg"
         ]
     },
+    "page05": {
+        "info": [
+            {
+                "visual": "../image/detail_img/detail_05_visual.jpg",
+                "section":"",
 
-    "page05": 
-    {
-            
-        "img": [
-            {"url":"../image/detail_05_main01.jpg"},
-            {"url":"../image/detail_05_main02.jpg"}
+                "title": "01  Rōzu",
+                "url": "../image/detail_img/detail_05_main01.jpg",
+                "text": "scent of purity. Blackberry-picking childhood memories, blackberry-stained lips and hands. The freshness of just-harvested bay leaves is tinged with tangy  blackberry juice. It's an alluring, vibrant, refreshing scent.Childhood memories of blackberry picking...A burst of deep, tart blackberry juice, blending with the freshness of just-gathered bay and brambly woods. Vibrant and verdant."
+            },
+            {
+                "title": "02  Marrakech",
+                "url": "../image/detail_img/detail_05_main02.jpg",
+                "text": "The first scent from Jo Malone London. Sandalwood and cedarwood are seasoned with nutmeg and vibrant ginger. Unexpected and addictive. Available exclusively online. Creamy, warm and sensual, it strengthens and extends the longevity of the scent. Spicy and fresh with a zingy lemon quality, it opens the fragrance with lively brightness."
+            }
         ],
-        
-        "title" : [
-            {"title05" : "01  Rōzu"},
-            {"title05" : "02  Marrakech"}
-        ],
-
-        "text" : [
-            {"text05" : "Rōzu articulates the full lifecycle of the Rose, underpinned by green, woody and ligh tly smoky notes—unmistakably floral, yet nuanced and expansive. It is inspired by the life, work and enthusiasms of the modernist designer Charlotte Perriand. With a light and graceful character top notes of musky Ambrette combine with fresh Jamaican Nesberr y. Powdery Violet then unfurls to reveal Sandalwood. Finally warm Chantilly Musk rounds out a base of crisp Amber and Cedar wood, leaving the raw spirit of Mojave Ghost to linger on the skin."},
-            {"text05" : "Entirely for your pleasure Inspired by the intoxicating city of Marrakech, this unorthodox scent celebrates the evocative aromas of spices used in local dishes, intense colours characteristic of its souks and surrounding desert, and the warm hospitality integral to Moroccan traditions. Miraceti is redolent of perilous seafaring adventures aboard ocean-worn ships. Spicy top notes mingle with warm balsamic, wood and the faint must of a whisky-filled cellar."}
-        ],
-        "slide":[
-            {"url" : "../image/detail_05_slide01.jpg"},
-            {"url" : "../image/detail_05_slide02.jpg"},
-            {"url" : "../image/detail_05_slide03.jpg"},
-            {"url" : "../image/detail_05_slide04.jpg"}
+        "slide": [
+            "../image/detail_img/detail_05_slide01.jpg",
+            "../image/detail_img/detail_05_slide02.jpg",
+            "../image/detail_img/detail_05_slide03.jpg",
+            "../image/detail_img/detail_05_slide04.jpg"
         ]
     },
+    "page06": {
+        "info": [
+            {
+                "visual": "../image/detail_img/detail_06_visual.jpg",
+                "section":"",
 
-    "page06": 
-    {
-            
-        "img": [
-            {"url":"../image/detail_06_main01.jpg"},
-            {"url":"../image/detail_06_main02.jpg"}
+                "title": "01  Baccarat Rouge 540",
+                "url": "../image/detail_img/detail_06_main01.jpg",
+                "text": "Baccarat Rouge 540 extrait de parfum intensifies the radiance of the three a uras found in the eau de parfum without betraying the original inspiration.The perfumer’s mastered craft and the wisdom gained with time gave birth to this woody extrait de perfume, an ultimate ccomplishment for Francis Kurkdjian. The Grandiflorum jasmine from Egypt head note gently underscores the craftsman’s voice. The hint of fire is enhanced with powdered epicurean facets of bitter almond from Morocco. "
+            },
+            {
+                "title": "02  l'Homme À la rose",
+                "url": "../image/detail_img/detail_06_main02.jpg",
+                "text": "The real name of the variety that floods market stalls with sunshine is the pomelo. Botanists prefer to talk about Citrus x paradisi.As with other citrus fruits, its oil is extracted by cold expression of the rind. Its scent differs from the orange by a slightly green bitterness. In a perfume, it conveys a similar very fresh, fruity, juicy sensation, with tart and slightly sulphurous undertones. With its high volatility, it fuses and adds vibrancy to any composition. "
+            }
         ],
-        
-        "title" : [
-            {"title06" : "01  Baccarat Rouge 540"},
-            {"title06" : "02  l'Homme À la rose"}
-        ],
-
-        "text" : [
-            {"text06" : "Baccarat Rouge 540 extrait de parfum intensifies the radiance of the three a uras found in the eau de parfum without betraying the original inspiration.The perfumer’s mastered craft and the wisdom gained with time gave birth to this woody extrait de perfume, an ultimate ccomplishment for Francis Kurkdjian. The Grandiflorum jasmine from Egypt head note gently underscores the craftsman’s voice. The hint of fire is enhanced with powdered epicurean facets of bitter almond from Morocco. "},
-            {"text06" : "The real name of the variety that floods market stalls with sunshine is the pomelo. Botanists prefer to talk about Citrus x paradisi.As with other citrus fruits, its oil is extracted by cold expression of the rind. Its scent differs from the orange by a slightly green bitterness. In a perfume, it conveys a similar very fresh, fruity, juicy sensation, with tart and slightly sulphurous undertones. With its high volatility, it fuses and adds vibrancy to any composition. "}
-        ],
-        
-        "slide":[
-            {"url" : "../image/detail_06_slide01.jpg"},
-            {"url" : "../image/detail_06_slide02.jpg"},
-            {"url" : "../image/detail_06_slide03.jpg"},
-            {"url" : "../image/detail_06_slide04.jpg"}
+        "slide": [
+            "../image/detail_img/detail_06_slide01.jpg",
+            "../image/detail_img/detail_06_slide02.jpg",
+            "../image/detail_img/detail_06_slide03.jpg",
+            "../image/detail_img/detail_06_slide04.jpg"
         ]
     }
-
-
-
-    
 }
