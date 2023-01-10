@@ -2,7 +2,6 @@
 @import url("./common.css");
 body {
   position: relative;
-  height: 100vh;
 }
 body .curtain {
   position: absolute;
@@ -56,7 +55,7 @@ body .collection_wraper .images .photo img {
 body .collection_wraper .images .book {
   transform: scaleX(0) scaleY(0);
 }
-body .collection_wraper p {
+body .collection_wraper > p {
   margin: 0;
   height: 0.5px;
   font-size: 30px;
