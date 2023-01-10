@@ -102,8 +102,13 @@ code {
 
 //header
 
+
 header {
   width: 100%;
+}
+
+.m_header_wrapper {
+  display: none;
 }
 
 .header_wrapper {
@@ -132,6 +137,7 @@ header {
       width: 40%;
       display: flex;
       justify-content: space-around;
+      align-items: center;
 
       li {
         width: 33%;
@@ -212,7 +218,7 @@ footer {
 
       .footer_info_area {
         width: 100%;
-        max-width: 900px;
+        border-bottom: 1px solid #fff;
 
         p {
           margin-right: 15px;
@@ -221,20 +227,21 @@ footer {
         }
 
         .footer_info_spot {
-          width: 100%;
           display: flex;
           flex-wrap: wrap;
-          padding-bottom: 40px;
-          border-bottom: 1px solid #fff;
-        }
-
-        .footer_copyright_spot {
           width: 100%;
-          padding-top: 40px;
+          max-width: 900px;
+          padding-bottom: 40px;
+
         }
       }
     }
   }
+}
+
+.footer_copyright_spot {
+  width: 100%;
+  padding-top: 40px;
 }
 
 
