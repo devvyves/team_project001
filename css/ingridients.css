@@ -810,6 +810,7 @@ main .ingredients03 .ingredients03-3 .ingredients03-t3 a img {
   main .ingredients02 .ingredients02-1 {
     width: 100%;
     position: relative;
+    margin-bottom: 2.5rem;
   }
   main .ingredients02 .ingredients02-1 img {
     width: 100%;
