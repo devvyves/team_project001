@@ -19,7 +19,261 @@ $tablet: 768px;
   }
 }
 
-@include device (480px) {
+
+
+
+
+
+// tablet
+@include device (1023px) {
+  body {
+    font-size: 18px;
+  }
+
+  .wrap {
+    width: 90%;
+  }
+
+  .mb180 {
+    margin-bottom: 4.5rem;
+  }
+
+  // index common css
+
+  a.more_btn {
+    width: 220px;
+    margin-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--white);
+    border: 2px solid #7C6D56;
+  }
+
+
+  // main common title
+
+
+  h2 {
+    margin-bottom: 2.5rem;
+
+    .main_title {
+
+      font-size: 23px;
+
+      &::after {
+        bottom: 5px;
+      }
+    }
+  }
+
+  // best collection
+
+  .collection_wrapper {
+
+
+    .collection_list {
+      flex-wrap: wrap;
+
+      figure {
+        width: calc(49% - 7px);
+
+        &:nth-of-type(1),
+        :nth-of-type(2) {
+          margin-bottom: 2.5rem;
+        }
+
+        &:nth-of-type(3),
+        :nth-of-type(4) {
+          margin-bottom: 0;
+        }
+
+        img {
+          width: 100%;
+        }
+
+        figcaption {
+          margin-top: 10px;
+          font-size: 20px;
+          color: var(--white);
+          text-transform: uppercase;
+        }
+      }
+
+    }
+  }
+
+
+  // purfume of the month
+
+
+  .month_wrapper {
+    width: 100%;
+    max-width: 539px;
+    margin: 0 auto;
+    margin-bottom: 4.5rem;
+
+    .month_cont {
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      margin-bottom: 2.5rem;
+
+      &:nth-of-type(2) {
+        flex-direction: row;
+
+        .month_area {
+          background-color: #000;
+        }
+      }
+
+      .month_img {
+        width: 100%;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+
+      .month_area {
+        width: 100%;
+        padding: 1.5rem;
+
+        .month_spot {
+          width: 100%;
+
+          .month_title {
+            font-size: 20px;
+
+            &::after {
+              content: '';
+              display: block;
+              width: 100%;
+              height: 2px;
+              position: absolute;
+              bottom: 0px;
+              left: 0;
+              background-color: #7C6D56;
+            }
+          }
+
+          p {
+            &:nth-of-type(1) {
+              margin-top: 15px;
+              font-size: 18px;
+              line-height: 23px;
+            }
+
+            &:nth-of-type(2) {
+              margin-top: 15px;
+              font-size: 15px;
+              line-height: 20px;
+            }
+          }
+        }
+
+      }
+
+    }
+  }
+
+
+
+  // new collection
+
+  .new_wrapper {
+
+    .new_cont {
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .new_area {
+      width: 47%;
+      max-width: 700px;
+
+      &:first-child {
+        margin-bottom: 2.5rem;
+      }
+
+      .new_spot {
+        width: 100%;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .new_text_spot {
+        margin-top: 15px;
+
+        b {
+          margin-bottom: 15px;
+          font-size: 23px;
+          text-transform: uppercase;
+        }
+
+        p {
+          line-height: 23px;
+        }
+      }
+    }
+  }
+
+
+
+
+  // perfume make
+
+  .making_perfume_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    padding-top: 0px;
+    background-position: 55% 50%;
+
+    .wrap {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.2);
+
+      .making_perfume_cont {
+        text-align: center;
+
+        h2 {
+          font-size: 33px;
+        }
+
+        p {
+          &:nth-of-type(1) {
+            font-size: 33px;
+          }
+
+          &:nth-of-type(2) {
+            font-size: 18px;
+            line-height: 23px;
+          }
+        }
+      }
+
+    }
+  }
+
+}
+
+
+
+
+
+
+
+// mobile
+@include device (767px) {
   body {
     font-size: 15px;
   }
@@ -81,7 +335,7 @@ $tablet: 768px;
 
         &:nth-of-type(1),
         :nth-of-type(2) {
-          margin-bottom: 30px;
+          margin-bottom: 2.5rem;
         }
 
         &:nth-of-type(3),

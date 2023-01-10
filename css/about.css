@@ -10,6 +10,7 @@ body {
 
 .sec_title {
   margin-bottom: 60px;
+  padding-top: 180px;
   font-size: 48px;
   text-align: center;
   text-transform: uppercase;
@@ -83,7 +84,72 @@ body {
   background-image: url("../image/about_img/about_bg04.jpeg");
 }
 
-@media (max-width: 480px) {
+@media (max-width: 1023px) {
+  .wrap {
+    width: 90%;
+  }
+  .mb180 {
+    margin-bottom: 4.5rem;
+  }
+  .row-rev {
+    flex-direction: row-reverse;
+  }
+  .sec_title {
+    padding-top: 6.5rem;
+    margin-bottom: 2.5rem;
+    font-size: 30px;
+  }
+  .bg_sec {
+    width: 100%;
+    height: 400px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .about_wrapper .about_cont {
+    flex-wrap: wrap;
+    margin-bottom: 2.5rem;
+  }
+  .about_wrapper .about_cont:nth-of-type(2) {
+    flex-direction: row;
+  }
+  .about_wrapper .about_cont:nth-of-type(2) .month_area {
+    background-color: #000;
+  }
+  .about_wrapper .about_cont .about_img {
+    width: 35%;
+    max-width: 539px;
+  }
+  .about_wrapper .about_cont .about_img img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .about_wrapper .about_cont .about_area {
+    width: calc(65% - 20px);
+    max-width: 539px;
+    padding: 1.5rem;
+  }
+  .about_wrapper .about_cont .about_area .about_spot {
+    width: 100%;
+  }
+  .about_wrapper .about_cont .about_area .about_spot .about_title {
+    font-size: 23px;
+  }
+  .about_wrapper .about_cont .about_area .about_spot p:nth-of-type(1) {
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 23px;
+  }
+  .about_wrapper .about_cont .about_area .about_spot p:nth-of-type(2) {
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 23px;
+  }
+}
+@media (max-width: 767px) {
   body {
     color: var(--text-color01);
     background-color: var(--black);
@@ -109,18 +175,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-  }
-  .sec_img01 {
-    background-image: url("../image/about_img/about_bg01.jpeg");
-  }
-  .sec_img02 {
-    background-image: url("../image/about_img/about_bg02.jpeg");
-  }
-  .sec_img03 {
-    background-image: url("../image/about_img/about_bg03.jpeg");
-  }
-  .sec_img04 {
-    background-image: url("../image/about_img/about_bg04.jpeg");
   }
   .about_wrapper .about_cont {
     justify-content: flex-start;
