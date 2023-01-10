@@ -85,7 +85,9 @@ function re(n) {
       } else {
         // el.classList.add("book");
         el.style = `transform: scaleX(0) scaleY(1)`;
-
+        setTimeout(() => {
+          el.classList.add("book");
+        }, 1500)
 
         //1.5초뒤에 커튼 올라감 
         setTimeout(() => {
