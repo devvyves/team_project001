@@ -27,14 +27,13 @@ fetch('./js/detail.json')
     const Item03 = document.querySelector('.detail_text_wrapper ');
 
       Item01.innerHTML =
-      `<div  style="background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)) ,url(${data[query].info[0].visual});" class="detail_main_visual">
+      `<div  style="background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)) ,url(./${data[query].info[0].visual});" class="detail_main_visual">
           <span class="visual_title">${data[query].info[0].span}</span>
         </div>`
 
 
 
       Item02.innerHTML =`
-       
         <div class="detail_cont">
           <img src="${data[query].info[0].url}" alt="">
         </div>
