@@ -100,6 +100,7 @@ body {
             height: auto;
           }
           .photo_text {
+            width: 100%;
             display: block;
           }
         }
@@ -128,12 +129,16 @@ body {
         div {
           display: inline;
           flex-shrink: 0;
-          width: 65%;
+          width: 64%;
           margin-right: 5px;
           scroll-snap-align: start;
           img {
             max-width: 100%;
             height: auto;
+          }
+          .photo_text {
+            width: 100%;
+            display: block;
           }
         }
       }

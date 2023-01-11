@@ -40,6 +40,7 @@ body .collection_wraper .images .photo {
 body .collection_wraper .images .photo .photo_text {
   display: none;
   position: absolute;
+  width: 100%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, 50%);
@@ -103,6 +104,7 @@ body .collection_wraper > p {
     height: auto;
   }
   .wrap .collection_wraper .images div .photo_text {
+    width: 100%;
     display: block;
   }
   .wrap .collection_wraper > p {
@@ -131,13 +133,17 @@ body .collection_wraper > p {
   .wrap .collection_wraper .images div {
     display: inline;
     flex-shrink: 0;
-    width: 65%;
+    width: 64%;
     margin-right: 5px;
     scroll-snap-align: start;
   }
   .wrap .collection_wraper .images div img {
     max-width: 100%;
     height: auto;
+  }
+  .wrap .collection_wraper .images div .photo_text {
+    width: 100%;
+    display: block;
   }
   .wrap .collection_wraper > p {
     display: none;
