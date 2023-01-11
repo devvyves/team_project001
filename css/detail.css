@@ -49,10 +49,10 @@ body .curtain.active {
   height: 900px;
   /* background-color: rgba(0, 0, 0, 0.3); */
 }
-.sasa{
+.visual_title{
   font-style: Mukta;
   font-weight: 600;
-  font-size: 100px;
+  font-size: 60px;
   color: #fff;
   position: absolute;
   left: 50%;
@@ -205,7 +205,7 @@ color: black;
     height: 900px;
     /* background-color: rgba(0, 0, 0, 0.3); */
   }
-  .sasa{
+  .visual_title{
     font-style: Mukta;
     font-weight: 600;
     font-size: 100px;
@@ -350,7 +350,7 @@ color: black;
     height: 900px;
     /* background-color: rgba(0, 0, 0, 0.3); */
   }
-  .sasa{
+  .visual_title{
     font-style: Mukta;
     font-weight: 600;
     font-size: 40px;
@@ -496,7 +496,7 @@ color: black;
     height: 900px;
     /* background-color: rgba(0, 0, 0, 0.3); */
   }
-  .sasa{
+  .visual_title{
     font-style: Mukta;
     font-weight: 600;
     font-size: 40px;
@@ -637,7 +637,7 @@ color: black;
     height: 900px;
     /* background-color: rgba(0, 0, 0, 0.3); */
   }
-  .sasa{
+  .visual_title{
     font-style: Mukta;
     font-weight: 600;
     font-size: 30px;

@@ -28,7 +28,7 @@ fetch('./js/detail.json')
 
       Item01.innerHTML =
       `<div  style="background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)) ,url(${data[query].info[0].visual});" class="detail_main_visual">
-          <span class="sasa">${data[query].info[0].span}</span>
+          <span class="visual_title">${data[query].info[0].span}</span>
         </div>`
 
 
