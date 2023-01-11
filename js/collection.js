@@ -57,17 +57,17 @@ imgBox.forEach(function (el, key) {
     setTimeout(() => {
       if (key == 0) {
         window.location.href =
-          "./detail.html";
+          "./detail.html?query=page01";
       } else if (key == 1) {
-        window.location.href = "./detail.html";
+        window.location.href = "./detail.html?query=page02";
       } else if (key == 2) {
-        window.location.href = "./detail.html";
+        window.location.href = "./detail.html?query=page03";
       } else if (key == 3) {
-        window.location.href = "./detail.html";
+        window.location.href = "./detail.html?query=page04";
       } else if (key == 4) {
-        window.location.href = "./detail.html";
+        window.location.href = "./detail.html?query=page05";
       } else if (key == 5) {
-        window.location.href = "./detail.html";
+        window.location.href = "./detail.html?query=page06";
       }
     }, 4000);
   });
