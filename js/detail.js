@@ -81,7 +81,7 @@ function init(){
         prevEl: ".swiper-button-prev",
       },
       autoplay: {
-        delay: 2500,
+        delay: 3000,
         disableOnInteraction: false,
       },
       breakpoints:{
@@ -91,14 +91,14 @@ function init(){
         },
         767:{
           slidesPerView:2,
-          spaceBetween:0,
+          spaceBetween:10,
         },
         1023:{
           slidesPerView:2,
           spaceBetween:0,
         },
         1400:{
-          slidesPerView:4,
+          slidesPerView:3,
           spaceBetween:0,
         }
       },

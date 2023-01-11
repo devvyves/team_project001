@@ -23,14 +23,14 @@ body .curtain.active {
 
 .detail_main_visuals {
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   overflow: hidden;
   margin-bottom: 180px;
   transition: 1.5s;
 }
 .detail_main_visual {
   width: 100%;
-  height: 100vh;
+  height: 85vh;
   /* background-image: url("../image/detail_img/detail_01_visual02.jpg"); */
   background-repeat: no-repeat;
   /* background-position: 50% 50%; */
@@ -127,6 +127,7 @@ body .curtain.active {
 }
 
 /*///////////////////   스크롤    ///////////////////////*/
+
 .detail_recommend_wrapper {
   /* border: 1px solid black; */
   position: relative;
@@ -137,7 +138,6 @@ body .curtain.active {
   /* border: 1px solid blue; */
   display: flex;
   justify-content: center;
-  margin-bottom: 40px;
   font-style: Mukta;
   font-size: 40px;
   font-weight: 600;
@@ -146,6 +146,8 @@ body .curtain.active {
 .detail_recommend_area{
   /* border: 1px blue solid; */
   height: 450px;
+  width: 80%;
+
 }
 
 .swiper-slide{
@@ -155,11 +157,14 @@ body .curtain.active {
   align-items: center;
   background-color: #fff;
   margin: 0;
-  width: 80%;
+  padding: 0;
+  width: 100%;
+  /* border: 1px solid red; */
 }
 .swiper-slide > a img{
 width: 350px;
 height: 300px;
+/* border: 1px solid red; */
 }
 .swiper-slide-active{
 color: red;
@@ -172,47 +177,46 @@ color: black;
 }
 
 @media screen and (max-width: 1400px) {
-  body {
-    position: relative;
-    height: 100vh;
-  }
-  body .curtain {
-    position: absolute;
-    bottom: 0;
+  .detail_main_visuals {
     width: 100%;
-    height: 100vh;
-    background-color: black;
-    z-index: 999;
-    transition: height 1000ms;
-  }
-  body .curtain.active {
-    height: 0;
-  }
-  /*//////////////////////////*/
-  
-  section {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 6rem;
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.3);
-  }
-  
-  .detail_main_visual {
-    width: 100%;
-    height: 100vh;
-    background-image: url("../image/detail_img/detail_01_visual02.jpg");
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
+    height: 80vh;
+    overflow: hidden;
     margin-bottom: 180px;
-    left: 0;
-    top: 0;
     transition: 1.5s;
   }
+  .detail_main_visual {
+    width: 100%;
+    height: 85vh;
+    /* background-image: url("../image/detail_img/detail_01_visual02.jpg"); */
+    background-repeat: no-repeat;
+    /* background-position: 50% 50%; */
+    background-size: cover;
+    transition: 1.3s;
+    position: relative;
+  
+  }
+  .detail_main_visual::after {
+    position: absolute;
+    /* content: ''; */
+    display: block;
+    left: 0;
+    bottom: 0%;
+    width: 100%;
+    height: 900px;
+    /* background-color: rgba(0, 0, 0, 0.3); */
+  }
+  .sasa{
+    font-style: Mukta;
+    font-weight: 600;
+    font-size: 100px;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+  
+  }
+  
   
   .detail_image_wrapper {
     /* border: 1px solid red; */
@@ -290,7 +294,6 @@ color: black;
     /* border: 1px solid blue; */
     display: flex;
     justify-content: center;
-    margin-bottom: 40px;
     font-style: Mukta;
     font-size: 30px;
     font-weight: 600;
@@ -299,7 +302,7 @@ color: black;
   .detail_recommend_area{
     /* border: 1px blue solid; */
     height:400px;
-    width: 100%;
+    width: 80%;
   }
   
   .swiper-slide{
@@ -319,41 +322,46 @@ color: black;
 /*///////////   태블릿  가로   /////////////*/
 
 @media screen and (max-width: 1023px) {
-  body {
-    position: relative;
-    height: 100vh;
-  }
-  body .curtain {
-    position: absolute;
-    bottom: 0;
+  .detail_main_visuals {
     width: 100%;
-    height: 100vh;
-    background-color: black;
-    z-index: 999;
-    transition: height 1000ms;
-  }
-  body .curtain.active {
-    height: 0;
-  }
-  /*//////////////////////////*/
-  section {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 4rem;
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.3);
+    height: 400px;
+    overflow: hidden;
+    margin-bottom: 6.5rem;
+    transition: 1.3s;
   }
   .detail_main_visual {
     width: 100%;
-    height: 100vh;
-    background-image: url("../image/detail_img/detail_01_visual02.jpg");
-    margin-bottom: 6.5rem;
+    height: 400px;
+    /* background-image: url("../image/detail_img/detail_01_visual02.jpg"); */
+    background-repeat: no-repeat;
+    /* background-position: 50% 50%; */
+    background-size: cover;
     transition: 1.5s;
+    position: relative;
+  
   }
-
+  .detail_main_visual::after {
+    position: absolute;
+    /* content: ''; */
+    display: block;
+    left: 0;
+    bottom: 0%;
+    width: 100%;
+    height: 900px;
+    /* background-color: rgba(0, 0, 0, 0.3); */
+  }
+  .sasa{
+    font-style: Mukta;
+    font-weight: 600;
+    font-size: 40px;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+  
+  }
+  
   .detail_image_wrapper {
     /* border: 1px solid red; */
     display: flex;
@@ -460,39 +468,44 @@ color: black;
 /*///////////   태블릿  세로   /////////////*/
 
 @media screen and (max-width: 767px) {
-  body {
-    position: relative;
-    height: 100vh;
-  }
-  body .curtain {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 100vh;
-    background-color: black;
-    z-index: 999;
-    transition: height 1000ms;
-  }
-  body .curtain.active {
-    height: 0;
-  }
-  /*//////////////////////////*/
-  
-  section {
+  .detail_main_visuals {
     width: 100%;
     height: 250px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 3rem;
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    margin-bottom: 6.5rem;
+    transition: 1.2s;
   }
   .detail_main_visual {
     width: 100%;
     height: 250px;
-    background-image: url("../image/detail_img/detail_01_visual02.jpg");
-    margin-bottom: 6.5rem;
+    /* background-image: url("../image/detail_img/detail_01_visual02.jpg"); */
+    background-repeat: no-repeat;
+    /* background-position: 50% 50%; */
+    background-size: cover;
+    transition: 1.5s;
+    position: relative;
+  
+  }
+  .detail_main_visual::after {
+    position: absolute;
+    /* content: ''; */
+    display: block;
+    left: 0;
+    bottom: 0%;
+    width: 100%;
+    height: 900px;
+    /* background-color: rgba(0, 0, 0, 0.3); */
+  }
+  .sasa{
+    font-style: Mukta;
+    font-weight: 600;
+    font-size: 40px;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+  
   }
 
   .detail_image_wrapper {
@@ -573,8 +586,8 @@ color: black;
 
   .detail_recommend_area{
     /* border: 1px blue solid; */
-    height:300px;
-    width: 100%;
+    height:400px;
+    width: 80%;
   }
   
   .swiper-slide{
@@ -586,8 +599,8 @@ color: black;
     width: 100%;
     /* border: 1px solid red; */
   }
-  .swiper-slide > img{
-  width: 200px;
+  .swiper-slide > a img{
+  width: 100%;
   }
 }
 
@@ -596,21 +609,44 @@ color: black;
 
 
 @media screen and (max-width: 480px) {
-  section {
+  .detail_main_visuals {
     width: 100%;
-    transform: translateY(10%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 3rem;
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.3);
-  }
-
-  .detail_main_visual {
-    height: 300px;
-    background-image: url("../image/detail_img/detail_01_visual02.jpg");
+    height: 250px;
+    overflow: hidden;
     margin-bottom: 6.5rem;
+    transition: 0.5s;
+  }
+  .detail_main_visual {
+    width: 100%;
+    height: 260px;
+    /* background-image: url("../image/detail_img/detail_01_visual02.jpg"); */
+    background-repeat: no-repeat;
+    /* background-position: 50% 50%; */
+    background-size: cover;
+    transition: 1.5s;
+    position: relative;
+  
+  }
+  .detail_main_visual::after {
+    position: absolute;
+    /* content: ''; */
+    display: block;
+    left: 0;
+    bottom: 0%;
+    width: 100%;
+    height: 900px;
+    /* background-color: rgba(0, 0, 0, 0.3); */
+  }
+  .sasa{
+    font-style: Mukta;
+    font-weight: 600;
+    font-size: 30px;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+  
   }
 
   .detail_image_wrapper {
@@ -704,9 +740,9 @@ color: black;
     align-items: center;
     background-color: #fff;
     margin: 0;
-    width: 80%;
+    width: 100%;
   }
-  .swiper-slide > img{
+  .swiper-slide > a img{
   width: 300px;
   }  
 }
