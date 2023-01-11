@@ -22,13 +22,13 @@ fetch('./js/detail.json')
     // console.log(data[query].info[0].url);
     // console.log(data[query].info[0].text);
     // console.log(data[query].slide[0]);
-    const Item01 = document.querySelector('.detail_main_visual');
+    const Item01 = document.querySelector('.detail_main_visuals');
     const Item02 = document.querySelector('.detail_image_wrapper  ');
     const Item03 = document.querySelector('.detail_text_wrapper ');
 
       Item01.innerHTML =
-      `<div  style="background-image: url(${data[query].info[0].visual});" class="detail_main_visual">
-          <section>222</section>
+      `<div  style="background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)) ,url(${data[query].info[0].visual});" class="detail_main_visual">
+          <span class="sasa">${data[query].info[0].span}</span>
         </div>`
 
 
@@ -118,6 +118,37 @@ function init(){
     });
 }
 window.addEventListener('load',init);
+
+
+// /* ========== 홈페이지 이동 ========== */
+// const imgBox = document.querySelectorAll(".swiper-slide > a img");
+
+// imgBox.forEach(function (el, key) {
+//   el.addEventListener("click", () => {
+//     re(false);
+
+//     setTimeout(() => {
+//       if (key == 0) {
+//         window.location.href =
+//           "./detail.html?query=page01";
+//       } else if (key == 1) {
+//         window.location.href = "./detail.html?query=page01";
+//       } else if (key == 2) {
+//         window.location.href = "./detail.html?query=page02";
+//       } else if (key == 3) {
+//         window.location.href = "./detail.html?query=page03";
+//       } else if (key == 4) {
+//         window.location.href = "./detail.html?query=page04";
+//       } else if (key == 5) {
+//         window.location.href = "./detail.html?query=page05";
+//       }
+//     }, 4000);
+//   });
+// });
+
+
+
+
 
 ////////////  소개 이벤트 /////////////////
 const elFigure = document.querySelectorAll("div");
