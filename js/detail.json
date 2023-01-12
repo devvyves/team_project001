@@ -69,16 +69,16 @@
     "page04": {
         "info": [
             {
-                "visual": "../image/detail_img/detail_04_visual.jpg",
+                "visual": "./image/detail_img/detail_04_visual.jpg",
                 "span":"Thé noir 29",
 
                 "title": "01  Blackberry & Bay Cologne",
-                "url": "../image/detail_img/detail_04_main01.jpg",
+                "url": "./image/detail_img/detail_04_main01.jpg",
                 "text": "scent of purity. Blackberry-picking childhood memories, blackberry-stained lips and hands. The freshness of just-harvested bay leaves is tinged with tangy  blackberry juice. It's an alluring, vibrant, refreshing scent.Childhood memories of blackberry picking...A burst of deep, tart blackberry juice, blending with the freshness of just-gathered bay and brambly woods. Vibrant and verdant."
             },
             {
                 "title": "02 Nutmeg & Ginger Cologne",
-                "url": "../image/detail_img/detail_04_main02.jpg",
+                "url": "./image/detail_img/detail_04_main02.jpg",
                 "text": "The first scent from Jo Malone London. Sandalwood and cedarwood are seasoned with nutmeg and vibrant ginger. Unexpected and addictive. Available exclusively online. Creamy, warm and sensual, it strengthens and extends the longevity of the scent. Spicy and fresh with a zingy lemon quality, it opens the fragrance with lively brightness."
             }
         ],
@@ -92,16 +92,16 @@
     "page05": {
         "info": [
             {
-                "visual": "../image/detail_img/detail_05_visual.jpg",
+                "visual": "./image/detail_img/detail_05_visual.jpg",
                 "span":"Labdanum 18",
 
                 "title": "01  Rōzu",
-                "url": "../image/detail_img/detail_05_main01.jpg",
+                "url": "./image/detail_img/detail_05_main01.jpg",
                 "text": "scent of purity. Blackberry-picking childhood memories, blackberry-stained lips and hands. The freshness of just-harvested bay leaves is tinged with tangy  blackberry juice. It's an alluring, vibrant, refreshing scent.Childhood memories of blackberry picking...A burst of deep, tart blackberry juice, blending with the freshness of just-gathered bay and brambly woods. Vibrant and verdant."
             },
             {
                 "title": "02  Marrakech",
-                "url": "../image/detail_img/detail_05_main02.jpg",
+                "url": "./image/detail_img/detail_05_main02.jpg",
                 "text": "The first scent from Jo Malone London. Sandalwood and cedarwood are seasoned with nutmeg and vibrant ginger. Unexpected and addictive. Available exclusively online. Creamy, warm and sensual, it strengthens and extends the longevity of the scent. Spicy and fresh with a zingy lemon quality, it opens the fragrance with lively brightness."
             }
         ],
@@ -115,16 +115,16 @@
     "page06": {
         "info": [
             {
-                "visual": "../image/detail_img/detail_06_visual.jpg",
+                "visual": "./image/detail_img/detail_06_visual.jpg",
                 "span":"Oud 27",
 
                 "title": "01  Baccarat Rouge 540",
-                "url": "../image/detail_img/detail_06_main01.jpg",
+                "url": "./image/detail_img/detail_06_main01.jpg",
                 "text": "Baccarat Rouge 540 extrait de parfum intensifies the radiance of the three a uras found in the eau de parfum without betraying the original inspiration.The perfumer’s mastered craft and the wisdom gained with time gave birth to this woody extrait de perfume, an ultimate ccomplishment for Francis Kurkdjian. The Grandiflorum jasmine from Egypt head note gently underscores the craftsman’s voice. The hint of fire is enhanced with powdered epicurean facets of bitter almond from Morocco. "
             },
             {
                 "title": "02  l'Homme À la rose",
-                "url": "../image/detail_img/detail_06_main02.jpg",
+                "url": "./image/detail_img/detail_06_main02.jpg",
                 "text": "The real name of the variety that floods market stalls with sunshine is the pomelo. Botanists prefer to talk about Citrus x paradisi.As with other citrus fruits, its oil is extracted by cold expression of the rind. Its scent differs from the orange by a slightly green bitterness. In a perfume, it conveys a similar very fresh, fruity, juicy sensation, with tart and slightly sulphurous undertones. With its high volatility, it fuses and adds vibrancy to any composition. "
             }
         ],
