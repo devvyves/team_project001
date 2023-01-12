@@ -129,14 +129,15 @@ a p{
 .detail_image_wrapper {
   /* border: 1px solid red; */
   display: flex;
+  
   opacity: 0;
-  transition: 1.2s linear;
   transform: translateY(50%);
 }
 .detail_image_wrapper.active {
   opacity: 1;
   transform: translateY(0%);
   margin-bottom: 0;
+  transition: 1s linear;
 }
 
 
@@ -175,13 +176,14 @@ a p{
 .detail_text_wrapper {
   display: flex;
   opacity: 0;
-  transition: 0.8s linear;
   transform: translateY(50%);
 }
 .detail_text_wrapper.active {
   opacity: 1;
   transform: translateY(0%);
   margin-bottom: 0;
+  transition: 1s linear;
+
 }
 
 .detail_img_area {
@@ -216,6 +218,7 @@ a p{
 }
 
 .swiper-slide{
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -431,13 +434,12 @@ color: black;
     /* border: 1px solid red; */
     display: flex;
     opacity: 0;
-    transition: 2s;
-    transform: translateY(50%);
+    transform: translateY(80%);
   }
   .detail_image_wrapper.active {
     opacity: 1;
-    transform: translateY(0%);
-    margin-bottom: 0;
+    transition: 2s;
+
   }
   .detail_cont {
     /* border: 3px solid black; */
@@ -484,6 +486,12 @@ color: black;
     /* flex-direction: column; */
     margin-bottom: 4.5rem;
   }
+  .detail_text_wrapper.active {
+    opacity: 1;
+    transition: 1.5s;
+
+  }
+
   .detail_img_area {
     width: 100%;
     margin: 0 auto;
@@ -688,7 +696,7 @@ color: black;
     background-repeat: no-repeat;
     /* background-position: 50% 50%; */
     background-size: cover;
-    transition: 1.5s;
+    transition: 0s;
     position: relative;
   
   }
@@ -719,6 +727,12 @@ color: black;
     display: flex;
     flex-direction: column;
   }
+  .detail_image_wrapper.active {
+    transition: 1.2s linear;
+  }
+  
+
+
   .detail_cont {
     /* border: 3px solid black; */
     width: 100%;
@@ -764,6 +778,11 @@ color: black;
     flex-direction: column;
     margin-bottom: 4.5rem;
   }
+  .detail_text_wrapper.active {
+    transition: 1.2s linear;
+
+  }
+  
   .detail_img_area {
     width: 100%;
     /* margin: 0 auto; */

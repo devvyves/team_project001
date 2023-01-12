@@ -31,8 +31,6 @@ fetch('./js/detail.json')
           <span class="visual_title">${data[query].info[0].span}</span>
         </div>`
 
-
-
       Item02.innerHTML =`
         <div class="detail_cont">
           <img src="${data[query].info[0].url}" alt="">
@@ -149,6 +147,18 @@ window.addEventListener('load',init);
 
 
 
+
+//////////////////////////////////////////////////////////////
+
+// window.matchMedia(mediaQueryString)
+// if (window.matchMedia("(min-width: 400px)").matches) {
+//   /* 뷰포트 너비가 400 픽셀 이상 */
+// } else {
+//   /* 뷰포트 너비가 400 픽셀 미만 */
+// }
+
+
+
 ////////////  소개 이벤트 /////////////////
 const elFigure = document.querySelectorAll("div");
 
@@ -161,6 +171,30 @@ window.addEventListener("scroll", function () {
     }
   });
 });
+
+
+// if (window.matchMedia("(max-width: 1023px)").matches) {
+//   elFigure.forEach(function (figu,key) {
+//     if (
+//       elFigure[key].offsetTop - this.window.innerHeight * 0.8 < window.pageYOffset
+//     ) {
+//       elFigure[key].classList.add("active");
+//     }
+    
+//   });
+// }
+ if(window.matchMedia("(max-width: 767px)").matches || window.matchMedia("(max-width: 1023px)").matches) {
+  elFigure.forEach(function (figu,key) {
+    if (
+      elFigure[key].offsetTop - this.window.innerHeight * 0.8 < window.pageYOffset
+    ) {
+      elFigure[key].classList.add("active");
+    }
+    
+  });
+}
+
+
 
 const Curtain = document.querySelector(".curtain");
 
