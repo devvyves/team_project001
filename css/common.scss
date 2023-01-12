@@ -232,7 +232,6 @@ footer {
           width: 100%;
           max-width: 900px;
           padding-bottom: 40px;
-
         }
       }
     }
@@ -240,8 +239,24 @@ footer {
 }
 
 .footer_copyright_spot {
+  display: flex;
+  justify-content: space-between;
   width: 100%;
   padding-top: 40px;
+  color: var(--white);
+
+  p {
+    width: 50%;
+  }
+
+  .sns_list {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    max-width: 140px;
+
+  }
+
 }
 
 

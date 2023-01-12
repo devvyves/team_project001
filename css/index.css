@@ -197,6 +197,29 @@ h2 .main_title::after {
   font-size: 20px;
   font-weight: 300;
 }
+.making_perfume_wrapper .wrap .making_perfume_cont .making_svg_area {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 480px;
+  margin-top: 40px;
+}
+.making_perfume_wrapper .wrap .making_perfume_cont .making_svg_area div {
+  text-align: center;
+}
+.making_perfume_wrapper .wrap .making_perfume_cont .making_svg_area div .svg_ring {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  margin-bottom: 15px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+.making_perfume_wrapper .wrap .making_perfume_cont .making_svg_area div .svg_ring img {
+  width: 47px;
+}
 
 @media (max-width: 1023px) {
   body {
