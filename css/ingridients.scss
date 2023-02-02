@@ -532,6 +532,548 @@ $tablet : 767px;
     }
   
 }
+@include device(280px,$tablet){
+    //mobile
+    //main 
+  
+      .subimg{
+          width: 100%;
+          margin-bottom: 6.5rem;
+          height: 200px;
+      }
+  
+  main{
+      width: 100%;
+  
+     
+    
+      .sub-container{
+          width: 90%;
+      }
+  
+      h2{
+          color: #141519;
+          font-size: 30px;
+          font-weight: 600; 
+          text-align: center;
+          margin-bottom: 2.5rem;
+          line-height: 30px;
+      }
+  
+  
+      // 서브 재료 이미지1
+  
+      .ingredients01{
+          width: 100%;
+          position: relative;
+          margin-bottom: 2.5rem;
+  
+          img{
+              width: 100%;
+              height: 200px;
+              object-fit: cover;
+              // height: 34.4375rem;
+              // background-repeat: no-repeat;
+              // background-position: center;
+              // background-size: cover;
+              
+          }
+          
+      }
+       
+    
+      // 서브 재료1 텍스트
+      .ingredients01-text{
+          width: 100%;
+          height: 100%;
+          background-color: #ffffff;
+          opacity: 1;
+          position: relative;
+          display: flex;
+          
+         
+          
+  
+          .ingredients01-text1{
+              width: 100%;
+              margin: 0 auto;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              padding: 20px 0 0 0;
+              line-height: 20px;
+  
+              h3{
+                  color: #141519;
+                  font-size:20px;
+                  font-weight: bold;      
+              }
+      
+              p{
+                  font-size: 15px;
+                  font-weight: 300;
+                  color: #141519;
+                  padding-top: 10px;  
+                
+                  
+              }
+      
+              a{
+                  display: flex;
+                  align-items: center;
+                  padding-top: 25px;  
+                 
+                 
+      
+                  span{
+                      color: #141519;
+                      font-size: 15px; 
+                      font-weight: bold;
+                      margin-right: 3px;   
+                       
+                  }
+      
+                  img{
+                      
+                      width: 6px;
+                      height: 12px;
+                  }
+              }
+                 
+          }
+  
+         
+      }
+  
+  // 서브 재료 이미지2
+      .ingredients02{
+          width: 100%;
+          max-height: 1000px;
+          overflow: hidden;
+          display: block;
+          margin-bottom: 2.5rem;
+          
+          
+  // 서브 재료 이미지2-1
+          .ingredients02-1{
+              width: 100%;
+              position: relative;
+              margin-bottom: 2.5rem;
+      
+              img{
+                  
+                  width: 100%;
+                  height: 200px;
+                  object-fit: cover;
+                  
+              }
+  
+  // 서브 재료 이미지2-1 텍스트 
+              .ingredients02-t1{
+                  width: 100%;
+                  height: 100%;
+                  background-color: #ffffff;
+                  opacity: 1;
+                  position: relative;
+                  display: flex;  
+                  padding: 20px 0 0 0;  
+              }
+  
+              .ingredients02-text1{
+                  width: 100%;
+                  margin: 0 auto;
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  line-height: 20px;
+              }
+  
+  
+              h3{
+                  color: #141519;
+                  font-size: 20px;
+                  font-weight: bold;      
+              }
+      
+              p{
+                  font-size: 15px;
+                  font-weight: 300;
+                  color: #141519;
+                  padding-top: 10px;  
+                
+                  
+              }
+      
+              a{
+                  display: flex;
+                  align-items: center;
+                  padding-top: 25px;  
+                 
+                 
+      
+                  span{
+                      color: #141519;
+                      font-size: 15px; 
+                      font-weight: bold;
+                      margin-right: 0.1875rem;  
+                  }
+      
+                  img{
+                      width: 6px;
+                      height: 12px;
+                  }
+              }
+          }
+  // 서브 재료 이미지2-2
+          .ingredients02-2{
+              width: 100%;
+              overflow: hidden;
+              position: relative;
+  
+              img{
+                  width: 100%;
+                  height: 200px;
+              }
+   // 서브 재료 이미지2-2 텍스트
+              .ingredients02-t2{
+                  width: 100%;
+                  height: 100%;
+                  background-color: #ffffff;
+                  opacity: 1;
+                  position: relative;
+                  display: flex;
+                  padding: 20px 0 0 0;    
+              }
+  
+              .ingredients02-text2{
+                  width: 100%;
+                  margin: 0 auto;
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  line-height: 20px;
+              }
+  
+              h3{
+                  color: #141519;
+                  font-size: 20px;
+                  font-weight: bold;      
+              }
+      
+              p{
+                  font-size: 15px;
+                  font-weight: 300;
+                  color: #141519;
+                  padding-top: 10px; 
+                
+                  
+              }
+      
+              a{
+                  display: flex;
+                  align-items: center;
+                  padding-top: 25px;  
+                 
+                 
+      
+                  span{
+                      color: #141519;
+                      font-size: 15px;
+                      font-weight: bold;
+                      margin-right: 0.1875rem; 
+                  }
+      
+                  img{
+                      width: 6px;
+                      height: 12px;
+                  }
+              }
+  
+             
+  
+          }
+      
+      }
+  
+  // 서브 재료 이미지3
+      .ingredients03{
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          margin-bottom: 6.5rem;
+         
+          
+          
+  // 서브 재료 이미지3-1
+  .ingredients03-1{
+      width: 100%;
+      max-width: 463px;
+      max-height: 1000px;
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 2.5rem;
+      
+      
+      &:hover .ingredients03-t1{
+          // transform: translateY();
+         /*  position: absolute; */
+          
+          top: 0px;
+          transition: 1.5s;
+      } 
+  
+      img{
+          width: 100%;
+          height: 200px;
+          object-fit: cover;
+         
+          // width: 28.9375rem;
+          // height: 28.9375rem;
+          //background-repeat: no-repeat;
+          //background-position: center;
+          //background-size: cover;
+      }
+  // 서브 재료 이미지3-1 텍스트
+      .ingredients03-t1{
+          width: 100%;
+          background-color: #ffffff;
+          opacity: 1;
+          position: relative;
+          top: 0;
+          display: flex;  
+          padding: 20px 0 0 0;
+          
+          .ingredients03-text1{
+              width: 100%;
+              margin: 0 auto;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              line-height: 20px;
+          }
+      
+          h3{
+              color: #141519;
+              font-size: 20px;
+              font-weight: bold;
+              margin-top: 0px;      
+          }
+      
+          p{
+              font-size: 15px;
+              font-weight: 300;
+              color: #141519;
+              padding-top: 10px;  
+            
+              
+          }
+      
+          a{
+              display: flex;
+              align-items: center;
+              padding-top: 25px;
+              margin-bottom: 0;     
+             
+             
+      
+              span{
+                  color: #141519;
+                  font-size: 15px; 
+                  font-weight: bold;
+                  margin-right: .1875rem;   
+              }
+      
+              img{
+                  width: 6px;
+                  height: 12px;
+              }
+          }
+      
+      }
+  
+    
+      
+  }
+          
+  // 서브 재료 이미지3-2
+  .ingredients03-2{
+      width: 100%;
+      max-width: 463px;
+      max-height: 1000px;
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 2.5rem;
+      
+      
+      &:hover .ingredients03-t2{
+          // transform: translateY();
+         /*  position: absolute; */
+          
+          top: 0px;
+          transition: 1.5s;
+      } 
+  
+      img{
+          width: 100%;
+          height: 200px;
+          object-fit: cover;
+          // width: 28.9375rem;
+          // height: 28.9375rem;
+          //background-repeat: no-repeat;
+          //background-position: center;
+          //background-size: cover;
+      }
+  // 서브 재료 이미지3-2 텍스트
+      .ingredients03-t2{
+          width: 100%;
+          background-color: #ffffff;
+          opacity: 1;
+          position: relative;
+          top: 0;
+          display: flex;  
+          padding: 20px 0 0 0;
+          
+          .ingredients03-text2{
+              width: 100%;
+              margin: 0 auto;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              line-height: 20px;
+          }
+      
+          h3{
+              color: #141519;
+              font-size: 20px;
+              font-weight: bold;
+              margin-top: 0px;      
+          }
+      
+          p{
+              font-size: 15px;
+              font-weight: 300;
+              color: #141519;
+              padding-top: 10px;  
+            
+              
+          }
+      
+          a{
+              display: flex;
+              align-items: center;
+              padding-top: 25px;
+              margin-bottom: 0px;     
+             
+             
+      
+              span{
+                  color: #141519;
+                  font-size: 15px; 
+                  font-weight: bold;
+                  margin-right: .1875rem;   
+              }
+      
+              img{
+                  width: 6px;
+                  height: 12px;
+          }
+      
+      }
+  
+    
+      
+    }
+  }
+          
+  // 서브 재료 이미지3-3
+  .ingredients03-3{
+      width: 100%;
+      max-width: 463px;
+      max-height: 1000px;
+      position: relative;
+      overflow: hidden;
+      
+      
+      &:hover .ingredients03-t3{
+          // transform: translateY();
+         /*  position: absolute; */
+          
+          top: 0px;
+          transition: 1.5s;
+      } 
+  
+      img{
+          width: 100%;
+          height: 200px;
+          object-fit: cover;
+          // width: 28.9375rem;
+          // height: 28.9375rem;
+          //background-repeat: no-repeat;
+          //background-position: center;
+          //background-size: cover;
+      }
+  // 서브 재료 이미지3-3 텍스트
+      .ingredients03-t3{
+          width: 100%;
+          background-color: #ffffff;
+          opacity: 1;
+          position: relative;
+          top: 0;
+          display: flex;  
+          padding: 20px 0 0 0;
+          
+          .ingredients03-text3{
+              width: 100%;
+              margin: 0 auto;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              line-height: 20px;
+          }
+      
+          h3{
+              color: #141519;
+              font-size: 20px;
+              font-weight: bold;
+              margin-top: 0px;      
+          }
+      
+          p{
+              font-size: 15px;
+              font-weight: 300;
+              color: #141519;
+              padding-top: 10px;  
+            
+              
+          }
+      
+          a{
+              display: flex;
+              align-items: center;
+              padding-top: 25px;
+              margin-bottom: 0;     
+             
+             
+      
+              span{
+                  color: #141519;
+                  font-size: 15px; 
+                  font-weight: bold;
+                  margin-right: 3px;   
+              }
+      
+              img{
+                 width: 6px;
+                 height: 12px;
+              }
+          }
+      
+      }   
+  }    
+    }
+  }
+  };
 
 @include device(375px,$tablet){
     //mobile
@@ -1619,6 +2161,548 @@ main{
 }
 };
 
+@include device(511px,766px){
+    //mobile
+    //main 
+  
+      .subimg{
+          width: 100%;
+          margin-bottom: 6.5rem;
+          height: 200px;
+      }
+  
+  main{
+      width: 100%;
+  
+     
+    
+      .sub-container{
+          width: 90%;
+      }
+  
+      h2{
+          color: #141519;
+          font-size: 30px;
+          font-weight: 600; 
+          text-align: center;
+          margin-bottom: 2.5rem;
+          line-height: 30px;
+      }
+  
+  
+      // 서브 재료 이미지1
+  
+      .ingredients01{
+          width: 100%;
+          position: relative;
+          margin-bottom: 2.5rem;
+  
+          img{
+              width: 100%;
+              height: 200px;
+              object-fit: cover;
+              // height: 34.4375rem;
+              // background-repeat: no-repeat;
+              // background-position: center;
+              // background-size: cover;
+              
+          }
+          
+      }
+       
+    
+      // 서브 재료1 텍스트
+      .ingredients01-text{
+          width: 100%;
+          height: 100%;
+          background-color: #ffffff;
+          opacity: 1;
+          position: relative;
+          display: flex;
+          
+         
+          
+  
+          .ingredients01-text1{
+              width: 100%;
+              margin: 0 auto;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              padding: 20px 0 0 0;
+              line-height: 20px;
+  
+              h3{
+                  color: #141519;
+                  font-size:20px;
+                  font-weight: bold;      
+              }
+      
+              p{
+                  font-size: 15px;
+                  font-weight: 300;
+                  color: #141519;
+                  padding-top: 10px;  
+                
+                  
+              }
+      
+              a{
+                  display: flex;
+                  align-items: center;
+                  padding-top: 25px;  
+                 
+                 
+      
+                  span{
+                      color: #141519;
+                      font-size: 15px; 
+                      font-weight: bold;
+                      margin-right: 3px;   
+                       
+                  }
+      
+                  img{
+                      
+                      width: 6px;
+                      height: 12px;
+                  }
+              }
+                 
+          }
+  
+         
+      }
+  
+  // 서브 재료 이미지2
+      .ingredients02{
+          width: 100%;
+          max-height: 1000px;
+          overflow: hidden;
+          display: block;
+          margin-bottom: 2.5rem;
+          
+          
+  // 서브 재료 이미지2-1
+          .ingredients02-1{
+              width: 100%;
+              position: relative;
+              margin-bottom: 2.5rem;
+      
+              img{
+                  
+                  width: 100%;
+                  height: 200px;
+                  object-fit: cover;
+                  
+              }
+  
+  // 서브 재료 이미지2-1 텍스트 
+              .ingredients02-t1{
+                  width: 100%;
+                  height: 100%;
+                  background-color: #ffffff;
+                  opacity: 1;
+                  position: relative;
+                  display: flex;  
+                  padding: 20px 0 0 0;  
+              }
+  
+              .ingredients02-text1{
+                  width: 100%;
+                  margin: 0 auto;
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  line-height: 20px;
+              }
+  
+  
+              h3{
+                  color: #141519;
+                  font-size: 20px;
+                  font-weight: bold;      
+              }
+      
+              p{
+                  font-size: 15px;
+                  font-weight: 300;
+                  color: #141519;
+                  padding-top: 10px;  
+                
+                  
+              }
+      
+              a{
+                  display: flex;
+                  align-items: center;
+                  padding-top: 25px;  
+                 
+                 
+      
+                  span{
+                      color: #141519;
+                      font-size: 15px; 
+                      font-weight: bold;
+                      margin-right: 0.1875rem;  
+                  }
+      
+                  img{
+                      width: 6px;
+                      height: 12px;
+                  }
+              }
+          }
+  // 서브 재료 이미지2-2
+          .ingredients02-2{
+              width: 100%;
+              overflow: hidden;
+              position: relative;
+  
+              img{
+                  width: 100%;
+                  height: 200px;
+              }
+   // 서브 재료 이미지2-2 텍스트
+              .ingredients02-t2{
+                  width: 100%;
+                  height: 100%;
+                  background-color: #ffffff;
+                  opacity: 1;
+                  position: relative;
+                  display: flex;
+                  padding: 20px 0 0 0;    
+              }
+  
+              .ingredients02-text2{
+                  width: 100%;
+                  margin: 0 auto;
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  line-height: 20px;
+              }
+  
+              h3{
+                  color: #141519;
+                  font-size: 20px;
+                  font-weight: bold;      
+              }
+      
+              p{
+                  font-size: 15px;
+                  font-weight: 300;
+                  color: #141519;
+                  padding-top: 10px; 
+                
+                  
+              }
+      
+              a{
+                  display: flex;
+                  align-items: center;
+                  padding-top: 25px;  
+                 
+                 
+      
+                  span{
+                      color: #141519;
+                      font-size: 15px;
+                      font-weight: bold;
+                      margin-right: 0.1875rem; 
+                  }
+      
+                  img{
+                      width: 6px;
+                      height: 12px;
+                  }
+              }
+  
+             
+  
+          }
+      
+      }
+  
+  // 서브 재료 이미지3
+      .ingredients03{
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          margin-bottom: 6.5rem;
+         
+          
+          
+  // 서브 재료 이미지3-1
+  .ingredients03-1{
+      width: 100%;
+      max-width: 766px;
+      max-height: 1000px;
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 2.5rem;
+      
+      
+      &:hover .ingredients03-t1{
+          // transform: translateY();
+         /*  position: absolute; */
+          
+          top: 0px;
+          transition: 1.5s;
+      } 
+  
+      img{
+          width: 100%;
+          height: 200px;
+          object-fit: cover;
+         
+          // width: 28.9375rem;
+          // height: 28.9375rem;
+          //background-repeat: no-repeat;
+          //background-position: center;
+          //background-size: cover;
+      }
+  // 서브 재료 이미지3-1 텍스트
+      .ingredients03-t1{
+          width: 100%;
+          background-color: #ffffff;
+          opacity: 1;
+          position: relative;
+          top: 0;
+          display: flex;  
+          padding: 20px 0 0 0;
+          
+          .ingredients03-text1{
+              width: 100%;
+              margin: 0 auto;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              line-height: 20px;
+          }
+      
+          h3{
+              color: #141519;
+              font-size: 20px;
+              font-weight: bold;
+              margin-top: 0px;      
+          }
+      
+          p{
+              font-size: 15px;
+              font-weight: 300;
+              color: #141519;
+              padding-top: 10px;  
+            
+              
+          }
+      
+          a{
+              display: flex;
+              align-items: center;
+              padding-top: 25px;
+              margin-bottom: 0;     
+             
+             
+      
+              span{
+                  color: #141519;
+                  font-size: 15px; 
+                  font-weight: bold;
+                  margin-right: .1875rem;   
+              }
+      
+              img{
+                  width: 6px;
+                  height: 12px;
+              }
+          }
+      
+      }
+  
+    
+      
+  }
+          
+  // 서브 재료 이미지3-2
+  .ingredients03-2{
+      width: 100%;
+      max-width: 766px;
+      max-height: 1000px;
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 2.5rem;
+      
+      
+      &:hover .ingredients03-t2{
+          // transform: translateY();
+         /*  position: absolute; */
+          
+          top: 0px;
+          transition: 1.5s;
+      } 
+  
+      img{
+          width: 100%;
+          height: 200px;
+          object-fit: cover;
+          // width: 28.9375rem;
+          // height: 28.9375rem;
+          //background-repeat: no-repeat;
+          //background-position: center;
+          //background-size: cover;
+      }
+  // 서브 재료 이미지3-2 텍스트
+      .ingredients03-t2{
+          width: 100%;
+          background-color: #ffffff;
+          opacity: 1;
+          position: relative;
+          top: 0;
+          display: flex;  
+          padding: 20px 0 0 0;
+          
+          .ingredients03-text2{
+              width: 100%;
+              margin: 0 auto;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              line-height: 20px;
+          }
+      
+          h3{
+              color: #141519;
+              font-size: 20px;
+              font-weight: bold;
+              margin-top: 0px;      
+          }
+      
+          p{
+              font-size: 15px;
+              font-weight: 300;
+              color: #141519;
+              padding-top: 10px;  
+            
+              
+          }
+      
+          a{
+              display: flex;
+              align-items: center;
+              padding-top: 25px;
+              margin-bottom: 0px;     
+             
+             
+      
+              span{
+                  color: #141519;
+                  font-size: 15px; 
+                  font-weight: bold;
+                  margin-right: .1875rem;   
+              }
+      
+              img{
+                  width: 6px;
+                  height: 12px;
+          }
+      
+      }
+  
+    
+      
+    }
+  }
+          
+  // 서브 재료 이미지3-3
+  .ingredients03-3{
+      width: 100%;
+      max-width: 766px;
+      max-height: 1000px;
+      position: relative;
+      overflow: hidden;
+      
+      
+      &:hover .ingredients03-t3{
+          // transform: translateY();
+         /*  position: absolute; */
+          
+          top: 0px;
+          transition: 1.5s;
+      } 
+  
+      img{
+          width: 100%;
+          height: 200px;
+          object-fit: cover;
+          // width: 28.9375rem;
+          // height: 28.9375rem;
+          //background-repeat: no-repeat;
+          //background-position: center;
+          //background-size: cover;
+      }
+  // 서브 재료 이미지3-3 텍스트
+      .ingredients03-t3{
+          width: 100%;
+          background-color: #ffffff;
+          opacity: 1;
+          position: relative;
+          top: 0;
+          display: flex;  
+          padding: 20px 0 0 0;
+          
+          .ingredients03-text3{
+              width: 100%;
+              margin: 0 auto;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              line-height: 20px;
+          }
+      
+          h3{
+              color: #141519;
+              font-size: 20px;
+              font-weight: bold;
+              margin-top: 0px;      
+          }
+      
+          p{
+              font-size: 15px;
+              font-weight: 300;
+              color: #141519;
+              padding-top: 10px;  
+            
+              
+          }
+      
+          a{
+              display: flex;
+              align-items: center;
+              padding-top: 25px;
+              margin-bottom: 0;     
+             
+             
+      
+              span{
+                  color: #141519;
+                  font-size: 15px; 
+                  font-weight: bold;
+                  margin-right: 3px;   
+              }
+      
+              img{
+                 width: 6px;
+                 height: 12px;
+              }
+          }
+      
+      }   
+  }    
+    }
+  }
+  };
 
 @include device(767px,1024px) {
     //tablet
