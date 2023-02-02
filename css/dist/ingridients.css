@@ -1,7 +1,7 @@
 @import url("./common.css");
 .subimg {
   width: 100%;
-  height: 600px;
+  height: 60vh;
   margin-bottom: 180px;
 }
 
@@ -42,29 +42,29 @@ main .ingredients01-text .ingredients01-text1 {
 }
 main .ingredients01-text .ingredients01-text1 h3 {
   color: #ffffff;
-  font-size: 1.875rem;
+  font-size: 30px;
   font-weight: bold;
 }
 main .ingredients01-text .ingredients01-text1 p {
-  font-size: 1.25rem;
+  font-size: 20px;
   font-weight: 300;
   color: #ffffff;
-  padding-top: 2.5rem;
+  padding-top: 40px;
 }
 main .ingredients01-text .ingredients01-text1 a {
   display: flex;
   align-items: center;
-  padding-top: 2.5rem;
+  padding-top: 40px;
 }
 main .ingredients01-text .ingredients01-text1 a span {
   color: #ffffff;
-  font-size: 1rem;
+  font-size: 16px;
   font-weight: bold;
-  margin-right: 0.1875rem;
+  margin-right: 3px;
 }
 main .ingredients01-text .ingredients01-text1 a img {
-  width: 0.2894rem;
-  height: 0.5rem;
+  width: 4.6304px;
+  height: 8px;
 }
 main .ingredients02 {
   width: 100%;
@@ -98,29 +98,29 @@ main .ingredients02 .ingredients02-1 .ingredients02-text1 {
 }
 main .ingredients02 .ingredients02-1 h3 {
   color: #ffffff;
-  font-size: 1.875rem;
+  font-size: 30px;
   font-weight: bold;
 }
 main .ingredients02 .ingredients02-1 p {
-  font-size: 1.25rem;
+  font-size: 20px;
   font-weight: 300;
   color: #ffffff;
-  padding-top: 2.5rem;
+  padding-top: 40px;
 }
 main .ingredients02 .ingredients02-1 a {
   display: flex;
   align-items: center;
-  padding-top: 2.5rem;
+  padding-top: 40px;
 }
 main .ingredients02 .ingredients02-1 a span {
   color: #ffffff;
-  font-size: 1rem;
+  font-size: 16px;
   font-weight: bold;
-  margin-right: 0.1875rem;
+  margin-right: 3px;
 }
 main .ingredients02 .ingredients02-1 a img {
-  width: 0.2894rem;
-  height: 0.5rem;
+  width: 4.6304px;
+  height: 8px;
 }
 main .ingredients02 .ingredients02-2 {
   width: 100%;
@@ -148,11 +148,11 @@ main .ingredients02 .ingredients02-2 .ingredients02-text2 {
 }
 main .ingredients02 .ingredients02-2 h3 {
   color: #ffffff;
-  font-size: 1.875rem;
+  font-size: 30px;
   font-weight: bold;
 }
 main .ingredients02 .ingredients02-2 p {
-  font-size: 1.25rem;
+  font-size: 20px;
   font-weight: 300;
   color: #ffffff;
   padding-top: 40px;
@@ -164,13 +164,13 @@ main .ingredients02 .ingredients02-2 a {
 }
 main .ingredients02 .ingredients02-2 a span {
   color: #ffffff;
-  font-size: 1rem;
+  font-size: 16px;
   font-weight: bold;
-  margin-right: 0.1875rem;
+  margin-right: 3px;
 }
 main .ingredients02 .ingredients02-2 a img {
-  width: 0.2894rem;
-  height: 0.5rem;
+  width: 4.6304px;
+  height: 8px;
 }
 main .ingredients03 {
   width: 100%;
@@ -209,12 +209,12 @@ main .ingredients03 .ingredients03-1 .ingredients03-t1 .ingredients03-text1 {
 }
 main .ingredients03 .ingredients03-1 .ingredients03-t1 h3 {
   color: #ffffff;
-  font-size: 1.875rem;
+  font-size: 30px;
   font-weight: bold;
   margin-top: 51px;
 }
 main .ingredients03 .ingredients03-1 .ingredients03-t1 p {
-  font-size: 1.25rem;
+  font-size: 20px;
   font-weight: 300;
   color: #ffffff;
   padding-top: 20px;
@@ -232,8 +232,8 @@ main .ingredients03 .ingredients03-1 .ingredients03-t1 a span {
   margin-right: 0.1875rem;
 }
 main .ingredients03 .ingredients03-1 .ingredients03-t1 a img {
-  width: 0.2894rem;
-  height: 0.5rem;
+  width: 4.6304px;
+  height: 8px;
 }
 main .ingredients03 .ingredients03-2 {
   width: 30%;
@@ -266,12 +266,12 @@ main .ingredients03 .ingredients03-2 .ingredients03-t2 .ingredients03-text2 {
 }
 main .ingredients03 .ingredients03-2 .ingredients03-t2 h3 {
   color: #ffffff;
-  font-size: 1.875rem;
+  font-size: 30px;
   font-weight: bold;
   margin-top: 51px;
 }
 main .ingredients03 .ingredients03-2 .ingredients03-t2 p {
-  font-size: 1.25rem;
+  font-size: 20px;
   font-weight: 300;
   color: #ffffff;
   padding-top: 20px;
@@ -284,13 +284,13 @@ main .ingredients03 .ingredients03-2 .ingredients03-t2 a {
 }
 main .ingredients03 .ingredients03-2 .ingredients03-t2 a span {
   color: #ffffff;
-  font-size: 1rem;
+  font-size: 16px;
   font-weight: bold;
-  margin-right: 0.1875rem;
+  margin-right: 3px;
 }
 main .ingredients03 .ingredients03-2 .ingredients03-t2 a img {
-  width: 0.2894rem;
-  height: 0.5rem;
+  width: 4.6304px;
+  height: 8px;
 }
 main .ingredients03 .ingredients03-3 {
   width: 30%;
@@ -323,12 +323,12 @@ main .ingredients03 .ingredients03-3 .ingredients03-t3 .ingredients03-text3 {
 }
 main .ingredients03 .ingredients03-3 .ingredients03-t3 h3 {
   color: #ffffff;
-  font-size: 1.875rem;
+  font-size: 30px;
   font-weight: bold;
   margin-top: 51px;
 }
 main .ingredients03 .ingredients03-3 .ingredients03-t3 p {
-  font-size: 1.25rem;
+  font-size: 20px;
   font-weight: 300;
   color: #ffffff;
   padding-top: 20px;
@@ -341,16 +341,16 @@ main .ingredients03 .ingredients03-3 .ingredients03-t3 a {
 }
 main .ingredients03 .ingredients03-3 .ingredients03-t3 a span {
   color: #ffffff;
-  font-size: 1rem;
+  font-size: 16px;
   font-weight: bold;
-  margin-right: 0.1875rem;
+  margin-right: 3px;
 }
 main .ingredients03 .ingredients03-3 .ingredients03-t3 a img {
-  width: 0.2894rem;
-  height: 0.5rem;
+  width: 4.6304px;
+  height: 8px;
 }
 
-@media (min-width: 480px) and (max-width: 767px) {
+@media (min-width: 375px) and (max-width: 767px) {
   .subimg {
     width: 100%;
     margin-bottom: 6.5rem;
@@ -379,6 +379,7 @@ main .ingredients03 .ingredients03-3 .ingredients03-t3 a img {
   main .ingredients01 img {
     width: 100%;
     height: 200px;
+    object-fit: cover;
   }
   main .ingredients01-text {
     width: 100%;
@@ -417,7 +418,7 @@ main .ingredients03 .ingredients03-3 .ingredients03-t3 a img {
     color: #141519;
     font-size: 15px;
     font-weight: bold;
-    margin-right: 0.1875rem;
+    margin-right: 3px;
   }
   main .ingredients01-text .ingredients01-text1 a img {
     width: 6px;
@@ -438,6 +439,7 @@ main .ingredients03 .ingredients03-3 .ingredients03-t3 a img {
   main .ingredients02 .ingredients02-1 img {
     width: 100%;
     height: 200px;
+    object-fit: cover;
   }
   main .ingredients02 .ingredients02-1 .ingredients02-t1 {
     width: 100%;
@@ -557,6 +559,7 @@ main .ingredients03 .ingredients03-3 .ingredients03-t3 a img {
   main .ingredients03 .ingredients03-1 img {
     width: 100%;
     height: 200px;
+    object-fit: cover;
   }
   main .ingredients03 .ingredients03-1 .ingredients03-t1 {
     width: 100%;
@@ -619,6 +622,7 @@ main .ingredients03 .ingredients03-3 .ingredients03-t3 a img {
   main .ingredients03 .ingredients03-2 img {
     width: 100%;
     height: 200px;
+    object-fit: cover;
   }
   main .ingredients03 .ingredients03-2 .ingredients03-t2 {
     width: 100%;
@@ -680,6 +684,7 @@ main .ingredients03 .ingredients03-3 .ingredients03-t3 a img {
   main .ingredients03 .ingredients03-3 img {
     width: 100%;
     height: 200px;
+    object-fit: cover;
   }
   main .ingredients03 .ingredients03-3 .ingredients03-t3 {
     width: 100%;
@@ -720,7 +725,389 @@ main .ingredients03 .ingredients03-3 .ingredients03-t3 a img {
     color: #141519;
     font-size: 15px;
     font-weight: bold;
+    margin-right: 3px;
+  }
+  main .ingredients03 .ingredients03-3 .ingredients03-t3 a img {
+    width: 6px;
+    height: 12px;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  .subimg {
+    width: 100%;
+    margin-bottom: 6.5rem;
+    height: 200px;
+  }
+
+  main {
+    width: 100%;
+  }
+  main .sub-container {
+    width: 90%;
+  }
+  main h2 {
+    color: #141519;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 2.5rem;
+    line-height: 30px;
+  }
+  main .ingredients01 {
+    width: 100%;
+    position: relative;
+    margin-bottom: 2.5rem;
+  }
+  main .ingredients01 img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  main .ingredients01-text {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    opacity: 1;
+    position: relative;
+    display: flex;
+  }
+  main .ingredients01-text .ingredients01-text1 {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 0 0 0;
+    line-height: 20px;
+  }
+  main .ingredients01-text .ingredients01-text1 h3 {
+    color: #141519;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  main .ingredients01-text .ingredients01-text1 p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #141519;
+    padding-top: 10px;
+  }
+  main .ingredients01-text .ingredients01-text1 a {
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+  }
+  main .ingredients01-text .ingredients01-text1 a span {
+    color: #141519;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 3px;
+  }
+  main .ingredients01-text .ingredients01-text1 a img {
+    width: 6px;
+    height: 12px;
+  }
+  main .ingredients02 {
+    width: 100%;
+    max-height: 1000px;
+    overflow: hidden;
+    display: block;
+    margin-bottom: 2.5rem;
+  }
+  main .ingredients02 .ingredients02-1 {
+    width: 100%;
+    position: relative;
+    margin-bottom: 2.5rem;
+  }
+  main .ingredients02 .ingredients02-1 img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  main .ingredients02 .ingredients02-1 .ingredients02-t1 {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    opacity: 1;
+    position: relative;
+    display: flex;
+    padding: 20px 0 0 0;
+  }
+  main .ingredients02 .ingredients02-1 .ingredients02-text1 {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 20px;
+  }
+  main .ingredients02 .ingredients02-1 h3 {
+    color: #141519;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  main .ingredients02 .ingredients02-1 p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #141519;
+    padding-top: 10px;
+  }
+  main .ingredients02 .ingredients02-1 a {
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+  }
+  main .ingredients02 .ingredients02-1 a span {
+    color: #141519;
+    font-size: 15px;
+    font-weight: bold;
     margin-right: 0.1875rem;
+  }
+  main .ingredients02 .ingredients02-1 a img {
+    width: 6px;
+    height: 12px;
+  }
+  main .ingredients02 .ingredients02-2 {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  main .ingredients02 .ingredients02-2 img {
+    width: 100%;
+    height: 200px;
+  }
+  main .ingredients02 .ingredients02-2 .ingredients02-t2 {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    opacity: 1;
+    position: relative;
+    display: flex;
+    padding: 20px 0 0 0;
+  }
+  main .ingredients02 .ingredients02-2 .ingredients02-text2 {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 20px;
+  }
+  main .ingredients02 .ingredients02-2 h3 {
+    color: #141519;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  main .ingredients02 .ingredients02-2 p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #141519;
+    padding-top: 10px;
+  }
+  main .ingredients02 .ingredients02-2 a {
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+  }
+  main .ingredients02 .ingredients02-2 a span {
+    color: #141519;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 0.1875rem;
+  }
+  main .ingredients02 .ingredients02-2 a img {
+    width: 6px;
+    height: 12px;
+  }
+  main .ingredients03 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 6.5rem;
+  }
+  main .ingredients03 .ingredients03-1 {
+    width: 100%;
+    max-width: 463px;
+    max-height: 1000px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 2.5rem;
+  }
+  main .ingredients03 .ingredients03-1:hover .ingredients03-t1 {
+    /*  position: absolute; */
+    top: 0px;
+    transition: 1.5s;
+  }
+  main .ingredients03 .ingredients03-1 img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  main .ingredients03 .ingredients03-1 .ingredients03-t1 {
+    width: 100%;
+    background-color: #ffffff;
+    opacity: 1;
+    position: relative;
+    top: 0;
+    display: flex;
+    padding: 20px 0 0 0;
+  }
+  main .ingredients03 .ingredients03-1 .ingredients03-t1 .ingredients03-text1 {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 20px;
+  }
+  main .ingredients03 .ingredients03-1 .ingredients03-t1 h3 {
+    color: #141519;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0px;
+  }
+  main .ingredients03 .ingredients03-1 .ingredients03-t1 p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #141519;
+    padding-top: 10px;
+  }
+  main .ingredients03 .ingredients03-1 .ingredients03-t1 a {
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+    margin-bottom: 0;
+  }
+  main .ingredients03 .ingredients03-1 .ingredients03-t1 a span {
+    color: #141519;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 0.1875rem;
+  }
+  main .ingredients03 .ingredients03-1 .ingredients03-t1 a img {
+    width: 6px;
+    height: 12px;
+  }
+  main .ingredients03 .ingredients03-2 {
+    width: 100%;
+    max-width: 463px;
+    max-height: 1000px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 2.5rem;
+  }
+  main .ingredients03 .ingredients03-2:hover .ingredients03-t2 {
+    /*  position: absolute; */
+    top: 0px;
+    transition: 1.5s;
+  }
+  main .ingredients03 .ingredients03-2 img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  main .ingredients03 .ingredients03-2 .ingredients03-t2 {
+    width: 100%;
+    background-color: #ffffff;
+    opacity: 1;
+    position: relative;
+    top: 0;
+    display: flex;
+    padding: 20px 0 0 0;
+  }
+  main .ingredients03 .ingredients03-2 .ingredients03-t2 .ingredients03-text2 {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 20px;
+  }
+  main .ingredients03 .ingredients03-2 .ingredients03-t2 h3 {
+    color: #141519;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0px;
+  }
+  main .ingredients03 .ingredients03-2 .ingredients03-t2 p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #141519;
+    padding-top: 10px;
+  }
+  main .ingredients03 .ingredients03-2 .ingredients03-t2 a {
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+    margin-bottom: 0px;
+  }
+  main .ingredients03 .ingredients03-2 .ingredients03-t2 a span {
+    color: #141519;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 0.1875rem;
+  }
+  main .ingredients03 .ingredients03-2 .ingredients03-t2 a img {
+    width: 6px;
+    height: 12px;
+  }
+  main .ingredients03 .ingredients03-3 {
+    width: 100%;
+    max-width: 463px;
+    max-height: 1000px;
+    position: relative;
+    overflow: hidden;
+  }
+  main .ingredients03 .ingredients03-3:hover .ingredients03-t3 {
+    /*  position: absolute; */
+    top: 0px;
+    transition: 1.5s;
+  }
+  main .ingredients03 .ingredients03-3 img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  main .ingredients03 .ingredients03-3 .ingredients03-t3 {
+    width: 100%;
+    background-color: #ffffff;
+    opacity: 1;
+    position: relative;
+    top: 0;
+    display: flex;
+    padding: 20px 0 0 0;
+  }
+  main .ingredients03 .ingredients03-3 .ingredients03-t3 .ingredients03-text3 {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 20px;
+  }
+  main .ingredients03 .ingredients03-3 .ingredients03-t3 h3 {
+    color: #141519;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0px;
+  }
+  main .ingredients03 .ingredients03-3 .ingredients03-t3 p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #141519;
+    padding-top: 10px;
+  }
+  main .ingredients03 .ingredients03-3 .ingredients03-t3 a {
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+    margin-bottom: 0;
+  }
+  main .ingredients03 .ingredients03-3 .ingredients03-t3 a span {
+    color: #141519;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 3px;
   }
   main .ingredients03 .ingredients03-3 .ingredients03-t3 a img {
     width: 6px;
@@ -756,6 +1143,7 @@ main .ingredients03 .ingredients03-3 .ingredients03-t3 a img {
   main .ingredients01 img {
     width: 100%;
     height: 300px;
+    object-fit: cover;
   }
   main .ingredients01-text {
     width: 60%;
@@ -817,6 +1205,7 @@ main .ingredients03 .ingredients03-3 .ingredients03-t3 a img {
   main .ingredients02 .ingredients02-1 img {
     width: 100%;
     height: 300px;
+    object-fit: cover;
   }
   main .ingredients02 .ingredients02-1 .ingredients02-t1 {
     width: 60%;
@@ -870,6 +1259,7 @@ main .ingredients03 .ingredients03-3 .ingredients03-t3 a img {
   main .ingredients02 .ingredients02-2 img {
     width: 100%;
     height: 300px;
+    object-fit: cover;
   }
   main .ingredients02 .ingredients02-2 .ingredients02-t2 {
     width: 60%;
@@ -938,6 +1328,7 @@ main .ingredients03 .ingredients03-3 .ingredients03-t3 a img {
   main .ingredients03 .ingredients03-1 img {
     width: 100%;
     height: 300px;
+    object-fit: cover;
   }
   main .ingredients03 .ingredients03-1 .ingredients03-t1 {
     width: 60%;
@@ -1000,6 +1391,7 @@ main .ingredients03 .ingredients03-3 .ingredients03-t3 a img {
   main .ingredients03 .ingredients03-2 img {
     width: 100%;
     height: 300px;
+    object-fit: cover;
   }
   main .ingredients03 .ingredients03-2 .ingredients03-t2 {
     width: 60%;
@@ -1063,6 +1455,7 @@ main .ingredients03 .ingredients03-3 .ingredients03-t3 a img {
   main .ingredients03 .ingredients03-3 img {
     width: 100%;
     height: 300px;
+    object-fit: cover;
   }
   main .ingredients03 .ingredients03-3 .ingredients03-t3 {
     width: 60%;
@@ -1109,5 +1502,361 @@ main .ingredients03 .ingredients03-3 .ingredients03-t3 a img {
   main .ingredients03 .ingredients03-3 .ingredients03-t3 a img {
     width: 6px;
     height: 12px;
+  }
+}
+@media (min-width: 1536px) and (max-width: 1900px) {
+  .subimg {
+    width: 100%;
+    height: 50vh;
+    margin-bottom: 180px;
+  }
+
+  main {
+    width: 100%;
+  }
+  main h2 {
+    color: #141519;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 60px;
+    line-height: 48px;
+  }
+  main .ingredients01 {
+    width: 100%;
+    position: relative;
+    margin-bottom: 60px;
+  }
+  main img {
+    width: 100%;
+    object-fit: cover;
+  }
+  main .ingredients01-text {
+    width: 50%;
+    height: 100%;
+    background-color: #141519;
+    opacity: 0.8;
+    position: absolute;
+    top: 0%;
+    display: flex;
+  }
+  main .ingredients01-text .ingredients01-text1 {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main .ingredients01-text .ingredients01-text1 h3 {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  main .ingredients01-text .ingredients01-text1 p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff;
+    padding-top: 40px;
+  }
+  main .ingredients01-text .ingredients01-text1 a {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+  }
+  main .ingredients01-text .ingredients01-text1 a span {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 3px;
+  }
+  main .ingredients01-text .ingredients01-text1 a img {
+    width: 4.6304px;
+    height: 8px;
+  }
+  main .ingredients02 {
+    width: 100%;
+    max-height: 5000px;
+    overflow: hidden;
+    display: flex;
+    margin-bottom: 60px;
+  }
+  main .ingredients02 .ingredients02-1 {
+    width: 100%;
+    position: relative;
+  }
+  main .ingredients02 .ingredients02-1 .ingredients02_img1 {
+    width: 100%;
+    height: 100%;
+  }
+  main .ingredients02 .ingredients02-1 .ingredients02-t1 {
+    width: 60%;
+    height: 100%;
+    background-color: #141519;
+    opacity: 0.8;
+    position: absolute;
+    top: 0%;
+    display: flex;
+  }
+  main .ingredients02 .ingredients02-1 .ingredients02-text1 {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main .ingredients02 .ingredients02-1 h3 {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  main .ingredients02 .ingredients02-1 p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff;
+    padding-top: 40px;
+  }
+  main .ingredients02 .ingredients02-1 a {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+  }
+  main .ingredients02 .ingredients02-1 a span {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 3px;
+  }
+  main .ingredients02 .ingredients02-1 a img {
+    width: 4.6304px;
+    height: 8px;
+  }
+  main .ingredients02 .ingredients02-2 {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  main .ingredients02 .ingredients02-2 .img {
+    width: 100%;
+    height: 370px;
+    object-fit: cover;
+  }
+  main .ingredients02 .ingredients02-2 .ingredients02-t2 {
+    width: 60%;
+    height: 100%;
+    background-color: #141519;
+    opacity: 0.8;
+    position: absolute;
+    top: 0%;
+    display: flex;
+  }
+  main .ingredients02 .ingredients02-2 .ingredients02-text2 {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main .ingredients02 .ingredients02-2 h3 {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  main .ingredients02 .ingredients02-2 p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff;
+    padding-top: 40px;
+  }
+  main .ingredients02 .ingredients02-2 a {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+  }
+  main .ingredients02 .ingredients02-2 a span {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 3px;
+  }
+  main .ingredients02 .ingredients02-2 a img {
+    width: 4.6304px;
+    height: 8px;
+  }
+  main .ingredients03 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 180px;
+  }
+  main .ingredients03 .ingredients03-1 {
+    width: 30%;
+    max-width: 463px;
+    position: relative;
+    overflow: hidden;
+  }
+  main .ingredients03 .ingredients03-1:hover .ingredients03-t1 {
+    /*  position: absolute; */
+    top: 115px;
+    transition: 1.5s;
+  }
+  main .ingredients03 .ingredients03-1 img {
+    width: 100%;
+  }
+  main .ingredients03 .ingredients03-1 .ingredients03-t1 {
+    width: 100%;
+    background-color: #141519;
+    opacity: 0.7;
+    position: absolute;
+    top: 406px;
+    display: flex;
+  }
+  main .ingredients03 .ingredients03-1 .ingredients03-t1 .ingredients03-text1 {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main .ingredients03 .ingredients03-1 .ingredients03-t1 h3 {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  main .ingredients03 .ingredients03-1 .ingredients03-t1 p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff;
+    padding-top: 20px;
+  }
+  main .ingredients03 .ingredients03-1 .ingredients03-t1 a {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    margin-bottom: 51px;
+  }
+  main .ingredients03 .ingredients03-1 .ingredients03-t1 a span {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 0.1875rem;
+  }
+  main .ingredients03 .ingredients03-1 .ingredients03-t1 a img {
+    width: 4.6304px;
+    height: 8px;
+  }
+  main .ingredients03 .ingredients03-2 {
+    width: 30%;
+    max-width: 463px;
+    position: relative;
+    overflow: hidden;
+  }
+  main .ingredients03 .ingredients03-2:hover .ingredients03-t2 {
+    /*  position: absolute; */
+    top: 115px;
+    transition: 1.5s;
+  }
+  main .ingredients03 .ingredients03-2 img {
+    width: 100%;
+  }
+  main .ingredients03 .ingredients03-2 .ingredients03-t2 {
+    width: 100%;
+    background-color: #141519;
+    opacity: 0.7;
+    position: absolute;
+    top: 406px;
+    display: flex;
+  }
+  main .ingredients03 .ingredients03-2 .ingredients03-t2 .ingredients03-text2 {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main .ingredients03 .ingredients03-2 .ingredients03-t2 h3 {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  main .ingredients03 .ingredients03-2 .ingredients03-t2 p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff;
+    padding-top: 20px;
+  }
+  main .ingredients03 .ingredients03-2 .ingredients03-t2 a {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    margin-bottom: 51px;
+  }
+  main .ingredients03 .ingredients03-2 .ingredients03-t2 a span {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 3px;
+  }
+  main .ingredients03 .ingredients03-2 .ingredients03-t2 a img {
+    width: 4.6304px;
+    height: 8px;
+  }
+  main .ingredients03 .ingredients03-3 {
+    width: 30%;
+    max-width: 463px;
+    position: relative;
+    overflow: hidden;
+  }
+  main .ingredients03 .ingredients03-3:hover .ingredients03-t3 {
+    /*  position: absolute; */
+    top: 115px;
+    transition: 1.5s;
+  }
+  main .ingredients03 .ingredients03-3 img {
+    width: 100%;
+  }
+  main .ingredients03 .ingredients03-3 .ingredients03-t3 {
+    width: 100%;
+    background-color: #141519;
+    opacity: 0.7;
+    position: absolute;
+    top: 406px;
+    display: flex;
+  }
+  main .ingredients03 .ingredients03-3 .ingredients03-t3 .ingredients03-text3 {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main .ingredients03 .ingredients03-3 .ingredients03-t3 h3 {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  main .ingredients03 .ingredients03-3 .ingredients03-t3 p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff;
+    padding-top: 20px;
+  }
+  main .ingredients03 .ingredients03-3 .ingredients03-t3 a {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    margin-bottom: 52px;
+  }
+  main .ingredients03 .ingredients03-3 .ingredients03-t3 a span {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 3px;
+  }
+  main .ingredients03 .ingredients03-3 .ingredients03-t3 a img {
+    width: 4.6304px;
+    height: 8px;
   }
 }
